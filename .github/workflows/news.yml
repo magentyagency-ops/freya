@@ -1,0 +1,39 @@
+# Refreshes the women's sport news wire every morning, rebuilds the site and commits dist/.
+# Setup: GitHub repo → Settings → Secrets and variables → Actions → New secret OPENAI_API_KEY (optional).
+name: Daily news update
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC every day (06:00/07:00 Paris)
+  workflow_dispatch:       # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Collect news
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+        run: node scripts/news.mjs
+      - name: Build site
+        run: node scripts/build.mjs
+      - name: Commit
+        run: |
+          git config user.name "freya-news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add src/data/news.json dist
+          git diff --cached --quiet || git commit -m "News: daily update $(date -u +%F)"
+          git push

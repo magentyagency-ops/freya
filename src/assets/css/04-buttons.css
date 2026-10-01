@@ -1,0 +1,120 @@
+/* --------------------------------------------------------------------------
+   Boutons — bouton fendu : libellé | cellule flèche
+   -------------------------------------------------------------------------- */
+.btn {
+  --h: 54px;
+  --bd: var(--line-3);
+  position: relative;
+  display: inline-flex;
+  align-items: stretch;
+  height: var(--h);
+  border: 1px solid var(--bd);
+  border-radius: var(--r);
+  color: var(--fg);
+  font: 500 var(--fs-label) / 1 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  isolation: isolate;
+  overflow: hidden;
+  transition: border-color var(--t-2) var(--ease), color var(--t-2) var(--ease), background-color var(--t-2) var(--ease);
+  user-select: none;
+}
+.btn__label {
+  display: flex;
+  align-items: center;
+  padding: 0 1.75em 0 1.9em;
+}
+.roll {
+  display: block;
+  height: 1.25em;
+  line-height: 1.25;
+  overflow: hidden;
+}
+.roll > span {
+  display: block;
+  transition: transform var(--t-3) var(--ease);
+}
+.roll > span::after {
+  content: attr(data-text);
+  display: block;
+}
+.btn:hover .roll > span,
+.btn:focus-visible .roll > span { transform: translateY(-50%); }
+
+.btn__icon {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: calc(var(--h) - 2px);
+  border-left: 1px solid var(--bd);
+  overflow: hidden;
+  transition: color var(--t-2) var(--ease), border-color var(--t-2) var(--ease);
+}
+.btn__icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--t-3) var(--ease);
+}
+.btn__icon .i {
+  grid-area: 1 / 1;
+  width: 18px;
+  height: 18px;
+  transition: transform var(--t-3) var(--ease);
+}
+.btn__icon .i + .i { transform: translateX(-180%); }
+.btn:hover .btn__icon::before { transform: scaleX(1); }
+.btn:hover .btn__icon { color: var(--on-accent); }
+.btn:hover .btn__icon .i:first-child { transform: translateX(180%); }
+.btn:hover .btn__icon .i + .i { transform: none; }
+
+.btn--ghost:hover { --bd: var(--fg-3); }
+
+.btn--solid {
+  --bd: transparent;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border-color: var(--btn-bg);
+}
+.btn--solid .btn__icon { border-left-color: color-mix(in srgb, var(--btn-fg) 14%, transparent); }
+
+.btn--sm { --h: 40px; }
+.btn--sm .btn__label { padding: 0 1.3em 0 1.4em; }
+.btn--lg { --h: 64px; font-size: 0.75rem; }
+.btn--block { display: flex; width: 100%; }
+.btn--block .btn__label { flex: 1; }
+.btn--plain .btn__label { padding: 0 1.4em; }
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Bouton icône */
+.ibtn {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line-2);
+  border-radius: var(--r);
+  color: var(--fg);
+  transition: border-color var(--t-2) var(--ease), background-color var(--t-2) var(--ease), color var(--t-2);
+}
+.ibtn:hover { border-color: var(--fg-3); background: var(--surface-2); }
+.ibtn .i { width: 18px; height: 18px; }
+.ibtn--round { border-radius: 50%; }
+
+/* Effet magnétique : la cible suit le curseur via --mx/--my */
+[data-magnetic] {
+  transform: translate3d(var(--mag-x, 0), var(--mag-y, 0), 0);
+  transition: transform 700ms var(--ease), border-color var(--t-2) var(--ease), color var(--t-2) var(--ease), background-color var(--t-2) var(--ease);
+}
+[data-magnetic].is-mag { transition: transform 160ms linear, border-color var(--t-2) var(--ease), color var(--t-2) var(--ease); }

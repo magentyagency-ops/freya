@@ -1,0 +1,165 @@
+/* ==========================================================================
+   FREYA SPORTS PARTNERS — Design system « Nordic Quant »
+   Palette froide (teinte 212°), Geist + Geist Mono, grille 12 colonnes.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Geist";
+  src: url("fonts/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("fonts/GeistMono-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@view-transition { navigation: auto; }
+
+:root {
+  /* Neutres froids */
+  --void: #030508;
+  --n-950: #06090d;
+  --n-925: #080c11;
+  --n-900: #0b1016;
+  --n-850: #0f151c;
+  --n-800: #131a23;
+  --n-750: #18202a;
+  --n-700: #1e2733;
+  --n-600: #2a3441;
+  --n-500: #3c4857;
+  --n-400: #5b6877;
+  --n-300: #84909e;
+  --n-200: #acb6c1;
+  --n-100: #d3dae1;
+  --n-50: #e8edf1;
+  --n-25: #f2f5f7;
+  --white: #f8fafb;
+
+  /* Glacier — accent unique */
+  --g-100: #e3f2fb;
+  --g-200: #c8e5f6;
+  --g-300: #a6d4ef;
+  --g-400: #7cbde6;
+  --g-500: #4da0d5;
+  --g-600: #2e80b6;
+  --g-700: #1f6290;
+  --g-800: #16476a;
+  --g-900: #0e2c43;
+
+  /* Signaux de données (usage parcimonieux) */
+  --up: #86e0c6;
+  --down: #e8958a;
+
+  /* Typographie */
+  --sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: "Geist Mono", ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --fs-display: clamp(2.75rem, 0.55rem + 6.4vw, 8.5rem);
+  --fs-h1: clamp(2.5rem, 0.9rem + 4.7vw, 6.5rem);
+  --fs-h2: clamp(2.125rem, 1rem + 3.15vw, 4.75rem);
+  --fs-h3: clamp(1.5rem, 1.05rem + 1.2vw, 2.375rem);
+  --fs-h4: clamp(1.1875rem, 1.04rem + 0.38vw, 1.4375rem);
+  --fs-statement: clamp(1.625rem, 0.85rem + 2.35vw, 3.625rem);
+  --fs-lead: clamp(1.0625rem, 0.97rem + 0.38vw, 1.3125rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.9375rem;
+  --fs-xs: 0.8125rem;
+  --fs-label: 0.6875rem;
+  --fs-micro: 0.625rem;
+
+  /* Espace */
+  --gutter: clamp(1.25rem, 0.5rem + 3.2vw, 4.25rem);
+  --gap: clamp(1rem, 0.6rem + 1.1vw, 1.875rem);
+  --sec: clamp(5.5rem, 3.4rem + 8vw, 12.5rem);
+  --sec-sm: clamp(4rem, 2.8rem + 4.6vw, 8rem);
+  --maxw: 1720px;
+  --hdr-h: 76px;
+
+  /* Mouvement */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-soft: cubic-bezier(0.25, 0.75, 0.3, 1);
+  --t-1: 160ms;
+  --t-2: 320ms;
+  --t-3: 640ms;
+  --t-4: 1100ms;
+
+  --r: 2px;
+  --r-2: 4px;
+  --r-3: 10px;
+
+  /* Grain — bruit fractal très léger */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .6 0 0 0 0 .7 0 0 0 0 .8 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Thèmes sémantiques — chaque section déclare data-theme */
+:root,
+[data-theme="dark"] {
+  --bg: var(--n-950);
+  --bg-2: var(--n-925);
+  --surface: var(--n-900);
+  --surface-2: var(--n-850);
+  --surface-3: var(--n-800);
+  --fg: var(--n-50);
+  --fg-2: var(--n-200);
+  --fg-3: var(--n-300);
+  --fg-4: var(--n-400);
+  --line: rgba(178, 202, 226, 0.085);
+  --line-2: rgba(178, 202, 226, 0.15);
+  --line-3: rgba(178, 202, 226, 0.26);
+  --accent: var(--g-300);
+  --accent-2: var(--g-400);
+  --accent-3: var(--g-500);
+  --on-accent: var(--n-950);
+  --btn-bg: var(--n-50);
+  --btn-fg: var(--n-950);
+  --glow: rgba(124, 189, 230, 0.16);
+  --sel: rgba(124, 189, 230, 0.32);
+  /* Graphiques — forme « emphase » : une série accent, le contexte en gris (validé : ΔE 30.7 / contraste ≥ 3:1) */
+  --chart-1: #8fcbef;
+  --chart-2: #5b6877;
+  --chart-wash: rgba(143, 203, 239, 0.1);
+  color-scheme: dark;
+}
+
+[data-theme="void"] {
+  --bg: var(--void);
+  --bg-2: var(--n-950);
+  --surface: var(--n-925);
+  --surface-2: var(--n-900);
+  --surface-3: var(--n-850);
+}
+
+[data-theme="ice"] {
+  --bg: #e6ebef;
+  --bg-2: #dde3e8;
+  --surface: #edf1f4;
+  --surface-2: #f4f6f8;
+  --surface-3: #fbfcfd;
+  --fg: #060a0f;
+  --fg-2: #27313c;
+  --fg-3: #4a5664;
+  --fg-4: #67737f;
+  --line: rgba(10, 22, 36, 0.1);
+  --line-2: rgba(10, 22, 36, 0.17);
+  --line-3: rgba(10, 22, 36, 0.32);
+  --accent: var(--g-700);
+  --accent-2: var(--g-600);
+  --accent-3: var(--g-500);
+  --on-accent: #fff;
+  --btn-bg: var(--n-950);
+  --btn-fg: var(--n-50);
+  --glow: rgba(31, 98, 144, 0.1);
+  --sel: rgba(31, 98, 144, 0.22);
+  /* Contexte #9aa5b1 < 3:1 → libellés directs + vue tableau obligatoires (règle de relief) */
+  --chart-1: var(--g-700);
+  --chart-2: #9aa5b1;
+  --chart-wash: rgba(31, 98, 144, 0.1);
+  color-scheme: light;
+}

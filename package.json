@@ -1,0 +1,16 @@
+{
+  "name": "freya-sports-partners",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site de Freya Sports Partners — générateur statique sans dépendance (src/ → dist/).",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "news": "node scripts/news.mjs",
+    "dev": "node scripts/dev.mjs",
+    "serve": "node scripts/dev.mjs --no-watch"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

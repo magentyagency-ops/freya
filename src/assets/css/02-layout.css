@@ -1,0 +1,123 @@
+/* --------------------------------------------------------------------------
+   Mise en page — conteneur, grille, sections, repères techniques
+   -------------------------------------------------------------------------- */
+.wrap {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gap);
+}
+
+.sec {
+  position: relative;
+  padding-block: var(--sec);
+  isolation: isolate;
+}
+.sec--sm { padding-block: var(--sec-sm); }
+.sec--flush-top { padding-top: 0; }
+.sec--flush-bottom { padding-bottom: 0; }
+.sec + .sec[data-theme="dark"]:not(.sec--seam),
+.sec + .sec[data-theme="void"]:not(.sec--seam) { border-top: 1px solid var(--line); }
+
+/* Lignes de grille décoratives (4 colonnes) */
+.gl {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.gl i { border-left: 1px solid var(--line); }
+.gl i:last-child { border-right: 1px solid var(--line); }
+.gl--fade { mask-image: linear-gradient(180deg, transparent, #000 18%, #000 82%, transparent); }
+
+/* Repères de calage « + » aux angles */
+.reg {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  pointer-events: none;
+  color: var(--line-3);
+}
+.reg::before, .reg::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+}
+.reg::before { left: 5px; top: 0; width: 1px; height: 11px; }
+.reg::after { top: 5px; left: 0; height: 1px; width: 11px; }
+.reg--tl { top: -6px; left: calc(var(--gutter) - 6px); }
+.reg--tr { top: -6px; right: calc(var(--gutter) - 6px); }
+.reg--bl { bottom: -6px; left: calc(var(--gutter) - 6px); }
+.reg--br { bottom: -6px; right: calc(var(--gutter) - 6px); }
+@media (min-width: 1720px) {
+  .reg--tl, .reg--bl { left: calc((100vw - var(--maxw)) / 2 + var(--gutter) - 6px); }
+  .reg--tr, .reg--br { right: calc((100vw - var(--maxw)) / 2 + var(--gutter) - 6px); }
+}
+
+/* Crochets d'angle (cadre d'instrument) */
+.brk { position: absolute; inset: 0; pointer-events: none; }
+.brk i {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: var(--line-3);
+  border-style: solid;
+  border-width: 0;
+}
+.brk i:nth-child(1) { top: 0; left: 0; border-top-width: 1px; border-left-width: 1px; }
+.brk i:nth-child(2) { top: 0; right: 0; border-top-width: 1px; border-right-width: 1px; }
+.brk i:nth-child(3) { bottom: 0; left: 0; border-bottom-width: 1px; border-left-width: 1px; }
+.brk i:nth-child(4) { bottom: 0; right: 0; border-bottom-width: 1px; border-right-width: 1px; }
+
+/* En-tête de section : méta (index + label) / contenu */
+.sh {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gap);
+  row-gap: 1.75rem;
+  margin-bottom: clamp(3rem, 2rem + 4vw, 6.5rem);
+}
+.sh__meta {
+  grid-column: 1 / span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 0.6em;
+}
+.sh__main { grid-column: 4 / -1; max-width: 62rem; }
+.sh__main .lead { margin-top: clamp(1.5rem, 1rem + 1.2vw, 2.25rem); max-width: 44rem; }
+.sh--split .sh__main { display: grid; grid-template-columns: 1.25fr 1fr; gap: var(--gap); align-items: end; max-width: none; }
+.sh--split .sh__main .lead { margin: 0; max-width: 30rem; justify-self: end; }
+.sh--center { text-align: center; justify-items: center; }
+.sh--center .sh__meta, .sh--center .sh__main { grid-column: 1 / -1; align-items: center; margin-inline: auto; }
+
+.rule {
+  height: 1px;
+  background: var(--line-2);
+  transform-origin: left;
+}
+
+.stack > * + * { margin-top: var(--stack, 1.25rem); }
+
+@media (max-width: 960px) {
+  .sh { grid-template-columns: 1fr; }
+  .sh__meta, .sh__main { grid-column: 1 / -1; }
+  .sh__meta { flex-direction: row; align-items: center; gap: 1rem; padding-top: 0; }
+  .sh--split .sh__main { grid-template-columns: 1fr; }
+  .sh--split .sh__main .lead { justify-self: start; }
+  .gl { grid-template-columns: repeat(2, 1fr); }
+  .gl i:nth-child(n + 3) { display: none; }
+  .gl i:nth-child(2) { border-right: 1px solid var(--line); }
+}
