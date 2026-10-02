@@ -177,6 +177,63 @@ function preloader() {
   </div>`;
 }
 
+function gate() {
+  return html`
+  <div class="site-gate" id="site-gate" aria-modal="true" role="dialog" aria-labelledby="gate-title">
+    <div class="site-gate__backdrop" aria-hidden="true">
+      <div class="site-gate__glow"></div>
+      <div class="site-gate__grid"></div>
+    </div>
+    <div class="site-gate__card">
+      <div class="site-gate__brand">
+        ${wordmark('site-gate__logo')}
+      </div>
+      <div class="site-gate__badge">
+        <span class="site-gate__dot"></span>
+        <span>Accès Privé · Private Platform</span>
+      </div>
+      <h1 class="site-gate__title" id="gate-title">Entrez votre code d'accès</h1>
+      <p class="site-gate__subtitle">Cette plateforme est strictement confidentielle. Veuillez renseigner le code d'accès à 4 chiffres pour continuer.</p>
+      
+      <form class="site-gate__form" id="gate-form" autocomplete="off" novalidate>
+        <div class="site-gate__pin-wrap">
+          <input
+            type="password"
+            id="gate-input"
+            class="site-gate__input"
+            inputmode="numeric"
+            pattern="[0-9]*"
+            maxlength="4"
+            placeholder="••••"
+            autocomplete="off"
+            aria-label="Code d'accès"
+            autofocus
+            required
+          />
+          <div class="site-gate__slots" aria-hidden="true">
+            <span class="site-gate__slot" data-slot="0"></span>
+            <span class="site-gate__slot" data-slot="1"></span>
+            <span class="site-gate__slot" data-slot="2"></span>
+            <span class="site-gate__slot" data-slot="3"></span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--solid btn--lg site-gate__submit" id="gate-submit">
+          <span class="btn__label">Déverrouiller</span>
+          <span class="btn__icon">${icon.arrowUpRight}</span>
+        </button>
+
+        <p class="site-gate__error" id="gate-error" role="alert" aria-live="polite"></p>
+      </form>
+
+      <div class="site-gate__foot">
+        <span>Freya Sports Partners © ${site.year}</span>
+        <span>Discrétion & Méthode</span>
+      </div>
+    </div>
+  </div>`;
+}
+
 export function layout(page, body, ctx) {
   const withIntro = !page.bare && !page.noindex;
   const title = page.id === 'index' ? `${site.name} — ${page.title}` : `${page.title} — ${site.name}`;
@@ -216,13 +273,19 @@ ${page.noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/GeistMono-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+html.is-locked,html.is-locked body{overflow:hidden!important;height:100vh!important}
+html.is-unlocked .site-gate{display:none!important}
+.site-gate{position:fixed;inset:0;z-index:999999;background:#030508}
+</style>
 <link rel="stylesheet" href="assets/freya.css?v=${ctx.version}">
-<script>(function(d){d.classList.add('js');try{if(${withIntro ? 'true' : 'false'}&&!sessionStorage.getItem('fsp-intro-v2')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('is-intro')}catch(e){}setTimeout(function(){if(!window.__fsp)d.classList.remove('js','is-intro')},3500)})(document.documentElement)</script>
+<script>(function(d){d.classList.add('js');try{if(localStorage.getItem('fsp_access_pass')==='4726'||sessionStorage.getItem('fsp_access_pass')==='4726'){d.classList.add('is-unlocked');}else{d.classList.add('is-locked');}if(${withIntro ? 'true' : 'false'}&&!sessionStorage.getItem('fsp-intro-v2')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('is-intro')}catch(e){d.classList.add('is-locked')}setTimeout(function(){if(!window.__fsp)d.classList.remove('js','is-intro')},3500)})(document.documentElement)</script>
 <script defer src="assets/freya.js?v=${ctx.version}"></script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
 <body id="top" class="p-${page.id}">
 ${withIntro ? preloader() : ''}
+${gate()}
 ${page.bare ? '' : header(page)}
 <main id="main" tabindex="-1">
 ${body}
