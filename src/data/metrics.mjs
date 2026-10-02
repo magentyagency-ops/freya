@@ -1,19 +1,6 @@
 // Figures displayed on the site.
 // ⚠ ALL ILLUSTRATIVE — replace with real (or sourced) data before publication.
 
-// Index 2018 = 100 — audience vs revenue of elite women's sport (schematic trajectory)
-export const asymmetry = {
-  x: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030],
-  series: [
-    { name: 'Audience', hi: true, values: [100, 118, 106, 146, 198, 252, 318, 390, 466, 546, 628, 712, 790] },
-    { name: 'Revenue', values: [100, 108, 94, 112, 134, 161, 196, 236, 284, 340, 404, 476, 556] },
-  ],
-  projFrom: 2027,
-  yMax: 800,
-  yStep: 200,
-  unit: 'index',
-};
-
 // Cumulative selection funnel since inception
 export const selection = [
   { name: 'Sourcing', value: 1200, text: 'Opportunities logged in our systems: clubs, leagues, rights, platforms.' },

@@ -70,33 +70,16 @@
   justify-content: center;
   background: var(--void);
   color: var(--n-50);
-  clip-path: inset(0 0 0 0);
-  transition: clip-path 1s var(--ease-io);
+  opacity: 1;
+  transition: opacity 450ms ease;
 }
 .is-intro body { overflow: hidden; }
-.pre__grid {
-  position: absolute;
-  inset: 0;
-  background-image: linear-gradient(rgba(178, 202, 226, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(178, 202, 226, 0.05) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: center center;
-  -webkit-mask-image: radial-gradient(closest-side, #000, transparent);
-  mask-image: radial-gradient(closest-side, #000, transparent);
-}
-.pre__center { position: relative; display: flex; flex-direction: column; align-items: center; gap: 28px; }
-.pre__mark { width: 40px; height: 46px; fill: none; stroke: currentColor; stroke-width: 2.4; overflow: visible; }
-.pre__mark path { stroke-dasharray: 30; stroke-dashoffset: 30; animation: draw 0.9s var(--ease) forwards; }
-.pre__mark path:nth-child(2) { animation-delay: 0.25s; stroke: var(--g-300); }
-.pre__mark path:nth-child(3) { animation-delay: 0.4s; stroke: var(--g-300); }
-.pre__word { font-size: 13px; font-weight: 500; letter-spacing: 0.62em; margin-right: -0.62em; opacity: 0; animation: fade 1s var(--ease) 0.5s forwards; }
-.pre__foot { position: absolute; bottom: 26px; left: 0; right: 0; display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; }
-.pre__foot .micro { color: var(--n-400); }
-.pre__count { font-size: clamp(2.75rem, 1.5rem + 5vw, 6.5rem); font-weight: 250; line-height: 0.8; letter-spacing: -0.06em; color: var(--n-50); }
-.pre__bar { position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: rgba(178, 202, 226, 0.1); }
-.pre__bar i { display: block; height: 100%; background: var(--g-300); transform: scaleX(var(--p, 0)); transform-origin: left; }
-.pre.is-done { clip-path: inset(0 0 100% 0); }
-@keyframes draw { to { stroke-dashoffset: 0; } }
-@keyframes fade { to { opacity: 1; } }
+.pre__center { display: flex; flex-direction: column; align-items: center; gap: 32px; }
+.pre__logo { width: min(66vw, 430px); opacity: 0; animation: pre-logo 850ms cubic-bezier(.22,1,.36,1) 100ms both; }
+.pre__line { width: 42px; height: 1px; background: var(--g-300); opacity: 0; animation: pre-line 650ms ease 380ms both; }
+.pre.is-done { opacity: 0; pointer-events: none; }
+@keyframes pre-logo { from { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateY(5px); } to { opacity: 1; clip-path: inset(0); transform: none; } }
+@keyframes pre-line { from { opacity: 0; transform: scaleX(.25); } to { opacity: .6; transform: scaleX(1); } }
 
 /* Grille de composition (touche G) */
 .gridview { position: fixed; inset: 0; z-index: 9400; pointer-events: none; opacity: 0; transition: opacity var(--t-2); }

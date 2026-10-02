@@ -42,6 +42,9 @@
 .c-line--hi { stroke: var(--chart-1); }
 .c-line--ctx { stroke: var(--chart-2); }
 .c-line--proj { stroke-dasharray: 5 6; stroke-linecap: butt; }
+/* Measured SVG dash lengths do not scale with non-scaling strokes. Keep the
+   historical series continuous at every responsive width once revealed. */
+.js .chart.is-in [data-draw] { stroke-dasharray: none; }
 .c-wash { fill: var(--chart-wash); }
 .c-proj { fill: color-mix(in srgb, var(--fg) 2.5%, transparent); }
 .c-projline { stroke: var(--line-2); stroke-width: 1; vector-effect: non-scaling-stroke; }
@@ -106,6 +109,8 @@
   text-transform: uppercase;
   color: var(--fg-4);
 }
+.chart__cap a, .ill a { color: var(--fg-2); text-decoration: underline; text-underline-offset: 3px; }
+.chart__cap a:hover, .ill a:hover { color: var(--fg); }
 
 /* Vue tableau repliable */
 .chart__table { margin-top: 14px; border-top: 1px solid var(--line); }

@@ -43,22 +43,8 @@
   flex: none;
   color: var(--fg);
 }
-.brand .mark { width: 19px; height: 22px; stroke-width: 2.6; }
-.brand__word {
-  font-size: 15px;
-  font-weight: 520;
-  letter-spacing: 0.36em;
-  margin-right: -0.36em;
-  line-height: 1;
-}
-.brand__sub {
-  font: 450 8.5px / 1.25 var(--mono);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--fg-3);
-  padding-left: 14px;
-  border-left: 1px solid var(--line-2);
-}
+.freya-logo { display: block; height: auto; flex: none; }
+.brand .freya-logo { width: 178px; }
 
 /* Navigation */
 .nav { flex: 1; display: flex; justify-content: center; }
@@ -297,7 +283,7 @@
 }
 @media (max-width: 640px) {
   :root { --hdr-h: 64px; }
-  .brand__sub { display: none; }
+  .brand .freya-logo { width: 146px; }
   .hdr__portal { display: none; }
   .hdr__actions .btn { display: none; }
 }

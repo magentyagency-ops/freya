@@ -1,12 +1,13 @@
-import { html } from '../lib/html.mjs';
+import { html, esc } from '../lib/html.mjs';
 import { icon } from '../lib/icons.mjs';
 import { glyph, cover } from '../lib/glyphs.mjs';
 import { btn, link, gl, regs, sh, stat } from '../lib/ui.mjs';
-import { lineChart, funnel } from '../lib/charts.mjs';
+import { lineChart } from '../lib/charts.mjs';
 import { strategies, affaires } from '../data/strategies.mjs';
 import { insights } from '../data/insights.mjs';
 import { insightCard } from '../lib/cards.mjs';
-import { asymmetry, selection, figures } from '../data/metrics.mjs';
+import { figures } from '../data/metrics.mjs';
+import { womensSportRevenue } from '../data/womens-sport.mjs';
 import { site } from '../config.mjs';
 import { loadNews, newsCard } from './news.mjs';
 
@@ -22,21 +23,26 @@ export const meta = {
 const sports = ['Football', 'Basketball', 'Rugby', 'Handball', 'Volleyball', 'Tennis', 'Cycling', 'Athletics', 'Swimming', 'Sailing', 'Golf', 'Combat sports'];
 
 function hero() {
+  const today = loadNews().articles[0];
   return html`
-  <section class="hero" data-theme="void" data-hero>
-    <canvas class="hero__gl" data-gl="surface" aria-hidden="true"></canvas>
+  <section class="hero hero--nice" data-theme="void" data-hero>
+    <canvas class="hero__gl" data-gl="surface" data-nice="1" aria-hidden="true"></canvas>
     <div class="hero__veil" aria-hidden="true"></div>
     ${gl(false)}
     <div class="wrap hero__hud" aria-hidden="true">
       <div class="hud">
-        <span class="micro">FSP / Signal surface</span>
-        <span class="micro dim">Model 2.6 — 52,800 points</span>
+        <span class="micro">Nice / Promenade des Anglais</span>
+        <span class="micro dim">A coastline in motion</span>
       </div>
       <div class="hud hud--r">
         <span class="micro num" data-hud-coords>X 0.000 · Y 0.000</span>
         <span class="micro dim">${site.coords}</span>
       </div>
     </div>
+    ${today ? html`<a class="hero-news" href="news-${esc(today.slug)}.html" aria-label="Latest story: ${esc(today.headline)}">
+      <img class="hero-news__image" src="${esc(today.image || '')}" alt="" loading="eager" decoding="async">
+      <span class="hero-news__copy"><span class="hero-news__top"><span class="hero-news__label"><i aria-hidden="true"></i> Freya newsroom</span><span class="hero-news__date">Today</span></span><span class="hero-news__title">${esc(today.headline)}</span><span class="hero-news__bottom"><span>${esc(today.sport)} · Read story</span><span class="hero-news__arrow" aria-hidden="true">↗</span></span></span>
+    </a>` : ''}
     <div class="wrap hero__inner">
       <h1 class="display hero__title" data-split>
         <span class="hero__line">Winning</span>
@@ -44,17 +50,12 @@ function hero() {
       </h1>
       <div class="hero__bottom">
         <div class="hero__left">
-          <p class="hero__lead" data-reveal>Freya Sports Partners invests in the organisations, rights and assets shaping the business of sport — with one core thesis: women’s sport is the most undervalued market in global sport.</p>
+          <p class="hero__lead" data-reveal>Freya Sports Partners invests in the organisations, rights and assets shaping the business of sport — with a core conviction: building long-term value in women’s sport.</p>
           <div class="btns hero__ctas" data-reveal style="--d:1">
             ${btn('strategies.html', 'Our strategies', { variant: 'solid' })}
             ${link('investors.html', 'Investor centre')}
           </div>
         </div>
-        <dl class="hero__facts" data-reveal style="--d:2">
-          <div><dt>Strategies</dt><dd>04</dd></div>
-          <div><dt>Sports tracked</dt><dd>12</dd></div>
-          <div><dt>Horizon</dt><dd>7–10 yrs</dd></div>
-        </dl>
       </div>
     </div>
     <a class="hero__scroll" href="#thesis" aria-label="Scroll to the thesis"><span class="micro">Scroll</span><i></i></a>
@@ -116,6 +117,13 @@ function numbers() {
 
 function strategiesScroll() {
   const cards = [...strategies, affaires];
+  const photos = [
+    { src: 'assets/img/ogc-nice-women-squad.jpg', alt: 'Les joueuses de l’OGC Nice féminin réunies sur le terrain', credit: 'OGC Nice Féminin', position: '50% 38%' },
+    { src: 'assets/img/strategies/sports-assets.jpg', alt: 'Aerial view of a football stadium and its pitch', credit: 'Sérgio Souza · Pexels', position: '50% 50%' },
+    { src: 'assets/img/strategies/media-data.jpg', alt: 'A camera operator filming a football match', credit: 'Aslam Jawaid · Pexels', position: '50% 48%' },
+    { src: 'assets/img/strategies/structured-credit.jpg', alt: 'Outdoor tennis courts and sports facilities', credit: 'Ceren Büşra Sevtekin · Pexels', position: '50% 42%' },
+    { src: 'assets/img/strategies/advisory.jpg', alt: 'A coach discussing tactics with football players', credit: 'Quyn Phạm · Pexels', position: '50% 42%' },
+  ];
   return html`
   <section class="hs" data-theme="dark" data-hscroll aria-labelledby="hs-title">
     <div class="hs__sticky">
@@ -137,22 +145,14 @@ function strategiesScroll() {
                   <span class="scard__code">${s.code}</span>
                   ${s.tag ? `<span class="tag${i === 0 ? ' tag--accent' : ''}">${s.tag}</span>` : ''}
                 </div>
-                <div class="scard__visual">${glyph(s.visual)}</div>
+                <div class="scard__visual scard__visual--photo" style="--photo-position:${photos[i].position}">
+                  <img src="${photos[i].src}" alt="${photos[i].alt}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async">
+                  <span class="scard__credit">${photos[i].credit}</span>
+                </div>
                 <div class="scard__body">
                   <h3 class="h3">${s.name}</h3>
                   <p class="scard__text">${s.summary}</p>
                 </div>
-                ${s.horizon
-                  ? html`<dl class="scard__meta">
-                      <div><dt>Horizon</dt><dd>${s.horizon}</dd></div>
-                      <div><dt>Profile</dt><dd>${s.profile}</dd></div>
-                      <div><dt>Allocation</dt><dd>${s.allocation}&nbsp;%</dd></div>
-                    </dl>`
-                  : html`<dl class="scard__meta">
-                      <div><dt>Practice</dt><dd>Advisory</dd></div>
-                      <div><dt>Clients</dt><dd>Clubs, leagues</dd></div>
-                      <div><dt>Mandates</dt><dd>Bespoke</dd></div>
-                    </dl>`}
                 <span class="scard__cta"><span>${s.horizon ? 'Explore the strategy' : 'Discover the practice'}</span>${icon.arrow}</span>
               </a>
             </li>`
@@ -165,27 +165,26 @@ function strategiesScroll() {
 
 function feature() {
   return html`
-  <section class="sec feature" data-theme="ice">
+  <section class="sec feature" id="womens-sport-data" data-theme="ice">
     <div class="wrap">
       ${sh({
         idx: '04',
         label: 'Women’s sport — Core thesis',
-        title: 'The most undervalued market<br>in global sport.',
-        lead: 'Audiences are growing faster than revenues, and revenues faster than valuations. This gap is no passing anomaly: it is a structural asymmetry, and it is closing.',
+        title: 'Women’s sport.<br>A market gaining scale.',
+        lead: 'Published revenue estimates show a growing global market. Our conviction is to help build its next chapter — not to confuse market growth with a guarantee of investment returns.',
       })}
       <div class="feature__grid">
         ${lineChart({
           id: 'fig-asymetrie',
           fig: 'Fig. 01',
-          title: 'Elite women’s sport — audience and revenue, index 2018 = 100',
-          ...asymmetry,
-          gapLabel: 'Asymmetry',
+          title: 'Global elite women’s sport — annual revenue (USD millions)',
+          ...womensSportRevenue,
         })}
         <div class="feature__signals">
           ${[
-            ['Σ/01', 'Audience', 'Women’s sport audiences are growing faster than any other segment of professional sport.'],
-            ['Σ/02', 'Revenue', 'Sponsorship, ticketing and rights follow one or two cycles behind. The gap closes in steps.'],
-            ['Σ/03', 'Valuations', 'Assets are still valued on historical comparables, ignoring the revenue trajectory.'],
+            ['Σ/01', '$2.41bn in 2025', 'Deloitte’s estimate of global elite women’s sports revenue, across matchday, broadcast and commercial income.'],
+            ['Σ/02', '$3.04bn forecast', 'Deloitte’s projection for 2026. A forecast, not a realised result or an investment return.'],
+            ['Σ/03', 'Our conviction', 'Support clubs and organisations with patient capital and operational expertise. Each investment needs its own valuation analysis.'],
           ].map(
             ([k, t, p], i) => html`
             <div class="signal" data-reveal style="--d:${i}">
@@ -200,22 +199,26 @@ function feature() {
   </section>`;
 }
 
-function process() {
+function flagship() {
   return html`
-  <section class="sec process" data-theme="dark">
-    <div class="wrap">
-      ${sh({
-        idx: '05',
-        label: 'Approach',
-        title: 'From data<br><span class="dim">to conviction.</span>',
-        lead: 'Five stages, one standard. Every opportunity goes through our models before reaching the investment committee — fewer than one in a hundred make it.',
-        split: true,
-      })}
-      ${funnel({ steps: selection })}
-      <div class="process__foot" data-reveal>
-        <span class="ill">Cumulative deal flow since inception — illustrative</span>
-        ${link('approach.html', 'Our approach in detail')}
+  <section class="sec home-flagship" data-theme="dark" aria-labelledby="home-flagship-title">
+    <div class="wrap home-flagship__grid">
+      <div class="home-flagship__copy">
+        <div class="home-flagship__meta"><span class="idx">05</span><span class="label">Our flagship investment</span></div>
+        <p class="home-flagship__eyebrow">Women’s football · Nice, Côte d’Azur</p>
+        <h2 class="h1" id="home-flagship-title" data-reveal>OGC Nice<br><span class="dim">Féminines.</span></h2>
+        <p class="lead" data-reveal>Les Aiglonnes are at the heart of Freya’s conviction in women’s sport. Our principal investment backs the team’s ambition, its players and the next chapter of football in Nice.</p>
+        <div class="home-flagship__foot" data-reveal>
+          <span class="home-flagship__signature">Long-term capital. Sporting conviction.</span>
+          ${btn('portfolio.html', 'Discover OGC Nice Women', { variant: 'solid', size: 'lg', ico: 'arrowUpRight', cls: 'home-flagship__cta', magnetic: false })}
+        </div>
       </div>
+      <figure class="home-flagship__visual" aria-label="OGC Nice Féminines celebrating together">
+        <span class="home-flagship__backdrop" aria-hidden="true">NICE</span>
+        <span class="home-flagship__orbit" aria-hidden="true"></span>
+        <img src="assets/img/ogc-nice-women-squad-cutout.png" alt="OGC Nice Féminines, the team celebrating together." width="1672" height="941" loading="lazy" decoding="async">
+        <figcaption><span class="idx">OGC / 01</span><span class="label">Les Aiglonnes</span></figcaption>
+      </figure>
     </div>
   </section>`;
 }
@@ -320,5 +323,5 @@ function investors() {
 }
 
 export function render() {
-  return [hero(), ticker(), thesis(), numbers(), strategiesScroll(), feature(), process(), affairesTeaser(), latest(), newsTeaser(), investors()].join('\n');
+  return [hero(), ticker(), thesis(), numbers(), strategiesScroll(), feature(), flagship(), newsTeaser(), affairesTeaser(), latest(), investors()].join('\n');
 }

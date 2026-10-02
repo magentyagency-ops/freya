@@ -2,21 +2,20 @@ import { html } from '../lib/html.mjs';
 import { glyph } from '../lib/glyphs.mjs';
 import { pageHero, sh, gl, facts, ctaBand, link } from '../lib/ui.mjs';
 import { lineChart } from '../lib/charts.mjs';
-import { asymmetry } from '../data/metrics.mjs';
-import { site } from '../config.mjs';
+import { womensSportRevenue, womensSportSource } from '../data/womens-sport.mjs';
 
 export const meta = {
   id: 'womens-sport',
   section: 'strategies',
   title: 'Women’s sport',
-  description: 'Freya Sports Partners’ core thesis: women’s sport is the most undervalued market in global sport. Catalysts, segments, value creation.',
+  description: 'Women’s sport: published Deloitte revenue estimates, investment conviction, catalysts and value creation.',
   headerTheme: 'void',
 };
 
 const multiples = [
-  { v: '4.7', label: 'Audience', note: '2026 index, 2018 = 1' },
-  { v: '2.8', label: 'Revenue', note: '2026 index, 2018 = 1' },
-  { v: '1.6', label: 'Valuations', note: '2026 index, 2018 = 1' },
+  { v: '1.88', label: '2024 revenue', note: 'USD billions · Deloitte estimate' },
+  { v: '2.41', label: '2025 revenue', note: 'USD billions · Deloitte estimate' },
+  { v: '3.04', label: '2026 revenue', note: 'USD billions · Deloitte forecast' },
 ];
 
 const catalysts = [
@@ -46,8 +45,8 @@ export function render() {
   ${pageHero({
     code: 'S-01 / Women’s sport',
     label: 'Core thesis',
-    title: 'The most undervalued market<br><span class="dim">in global sport.</span>',
-    lead: 'Women’s sport audiences are growing faster than its revenue, and its revenue faster than its valuations. Freya invests in that gap — with method, patience and operational rigour.',
+    title: 'Women’s sport.<br><span class="dim">A market gaining scale.</span>',
+    lead: 'Deloitte’s published estimates show growing global revenues in elite women’s sport. Freya’s conviction is to build long-term value through patient capital and operational rigour.',
     aside: facts([['Target allocation', '40%'], ['Horizon', '7 – 10 years'], ['Ticket size', '€5 – 25m'], ['Instruments', 'Growth equity']]),
     visual: `<div class="sf-visual" data-reveal>${glyph('rise')}</div><div class="phero__veil"></div>`,
     crumbs: [['strategies.html', 'Strategies'], [null, 'Women’s sport']],
@@ -58,25 +57,25 @@ export function render() {
     <div class="wrap">
       <div class="statement-block">
         <div class="statement-block__meta"><span class="idx" data-scramble>01</span><span class="label">The thesis</span></div>
-        <p class="statement" data-highlight>Three curves, three speeds. The gap between them is not an anomaly: it is the signature of a market in transition. It closes in steps — with every rights cycle, every premium partner, every new venue.</p>
+        <p class="statement" data-highlight>A growing market is a starting point, not an investment conclusion. We assess each organisation on its own economics, governance and potential — and work alongside it to build lasting value.</p>
       </div>
       <div class="multiples">
         ${multiples.map((m, i) => html`
           <div class="multiple" data-reveal style="--d:${i}">
             <span class="label">${m.label}</span>
-            <span class="multiple__v">×<span>${m.v}</span></span>
+            <span class="multiple__v">$<span>${m.v}</span></span>
             <span class="micro">${m.note}</span>
-            <span class="multiple__bar" style="--w:${parseFloat(m.v) / 4.7}"><i></i></span>
+            <span class="multiple__bar" style="--w:${parseFloat(m.v) / 3.04}"><i></i></span>
           </div>`)}
       </div>
-      <p class="ill">Schematic trajectories — illustrative data as of ${site.asOf}</p>
+      <p class="ill">Global elite women’s sport · <a href="${womensSportSource}" target="_blank" rel="noopener noreferrer">Deloitte, Game changers (2026), Fig. 1, p. 4 ↗</a> · Estimates and forecast, not investment returns.</p>
     </div>
   </section>
 
   <section class="sec" data-theme="ice">
     <div class="wrap">
-      ${sh({ idx: '02', label: 'Asymmetry', title: 'Audience ahead,<br><span class="dim">revenue behind.</span>', split: true, lead: 'The gap between the attention captured and the revenue generated measures the value the market has yet to price in.' })}
-      ${lineChart({ id: 'fig-ws-asym', fig: 'Fig. 01', title: 'Elite women’s sport — audience and revenue, index 2018 = 100', ...asymmetry, gapLabel: 'Asymmetry' })}
+      ${sh({ idx: '02', label: 'Published market data', title: 'Revenue growth,<br><span class="dim">with a clear source.</span>', split: true, lead: 'Annual market estimates from Deloitte. The dashed segment is the 2026 forecast. These figures do not establish that assets are undervalued.' })}
+      ${lineChart({ id: 'fig-ws-asym', fig: 'Fig. 01', title: 'Global elite women’s sport — annual revenue (USD millions)', ...womensSportRevenue })}
     </div>
   </section>
 

@@ -120,7 +120,6 @@ export function render() {
     <div class="wrap">
       ${sh({ idx: '03', label: 'Reporting & portal', title: 'Your entire portfolio,<br><span class="dim">in one place.</span>', lead: 'The investor portal brings together reporting, capital calls, distributions, tax documents and impact KPIs for every holding.' })}
       <div data-reveal>${dashboard()}</div>
-      <div class="btns dash__cta" data-reveal>${btn('login.html', 'Go to the portal', { variant: 'solid', ico: 'lock' })}</div>
     </div>
   </section>
 
@@ -172,7 +171,6 @@ export function render() {
     title: 'Start<br><span class="dim">the conversation.</span>',
     text: 'Firm presentation, meetings with the partners, data room access: the Investor Relations team replies within 48 hours.',
     primary: [mail('Investor relations'), 'Contact the team'],
-    secondary: ['login.html', 'Investor portal'],
   })}
 
   <div class="gate" data-gate role="dialog" aria-modal="true" aria-labelledby="gate-title">

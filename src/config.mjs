@@ -71,7 +71,7 @@ export const footerCols = [
   },
   {
     title: 'Resources',
-    links: [['news.html', 'News'], ['insights.html', 'Insights'], ['portfolio.html', 'Portfolio'], ['press.html', 'Press'], ['investors.html', 'Investors'], ['login.html', 'Portal']],
+    links: [['news.html', 'News'], ['insights.html', 'Insights'], ['portfolio.html', 'Portfolio'], ['press.html', 'Press'], ['investors.html', 'Investors']],
   },
   {
     title: 'Contact',

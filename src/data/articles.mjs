@@ -17,58 +17,58 @@ export const bodies = {
     sections: [
       {
         id: 'four-curves',
-        h: 'Four curves, four speeds',
+        h: 'A growing market, measured in revenue',
         p: [
-          'Women’s sport is often described as a single trend: “women’s sport is taking off.” Reality is more interesting. Four curves — audience, sponsorship, media rights and valuations — are moving at very different speeds.',
-          'That lag is not a market failure. It is the signature of a market in transition, and it is precisely where a patient investor finds opportunity: buying the revenue trajectory before it is priced in.',
+          'Deloitte’s 2026 Game changers report estimates global elite women’s sports revenue at US$1.88 billion in 2024 and US$2.41 billion in 2025. It forecasts US$3.04 billion for 2026.',
+          'These are market-wide revenue estimates, not a valuation index or an investment performance record. Freya’s investment conviction is separate from the published data.',
         ],
         figures: true,
       },
       {
         id: 'audience',
-        h: 'Audience, the leading indicator',
+        h: 'Published estimates and a forecast',
         p: [
-          'Audience always leads revenue. Record attendance, rising broadcast hours, younger and more engaged digital communities: attention moves faster than money.',
-          'In our models, audience is the first detection factor. A sustained rise in attendance and broadcast over at least two seasons precedes, on average, the repricing of contracts by one to three rights cycles.',
+          'The chart reproduces Deloitte’s annual revenue series: US$692 million in 2022, US$981 million in 2023, US$1.88 billion in 2024 and US$2.41 billion in 2025. Its scope is global elite women’s sport, not all women’s sports activity.',
+          'The dashed segment shows Deloitte’s US$3.04 billion forecast for 2026. Historical values are estimates based on publicly available information. No audience or valuation series is inferred from these numbers.',
         ],
         chart: 'asym',
       },
       {
         id: 'sponsorship',
-        h: 'Sponsorship captures growth first',
+        h: 'Three sources of revenue',
         p: [
-          'Of all revenue sources, sponsorship reacts fastest. Brands seek engaged audiences, clear values and a still-reasonable entry price. They now sign longer contracts, often with activation commitments.',
-          'Ticketing follows, but more slowly: it depends on venue capacity, pricing policy and the fan experience — all operational levers an active shareholder can pull.',
+          'Deloitte estimates the 2025 revenue mix at 46% commercial, 31% matchday and 23% broadcast. Commercial revenue includes sponsorship, merchandising and licensing.',
+          'These percentages describe revenue composition, not growth rates. Venue capacity, pricing, partnerships and distribution remain organisation-specific questions for investment due diligence.',
         ],
         chart: 'bars',
       },
       {
         id: 'rights',
-        h: 'Media rights catch up in cycles',
+        h: 'Understanding the scope',
         p: [
-          'Broadcast rights are renegotiated in three-to-five-year cycles, so their value rises in steps, at each tender. Selling women’s competitions separately — long sold as an “add-on” — has changed the game.',
-          'Fragmented distribution also opens new options: dedicated platforms, direct-to-consumer, rights split by territory. For a mid-sized league, the trade-off between exposure and revenue becomes a modelling exercise in its own right.',
+          'The report separates matchday, broadcast and commercial income. Broadcast deals that bundle men’s and women’s sports, such as tennis grand slams, are excluded from its data analysis.',
+          'This perimeter matters when comparing figures with other studies. A market total cannot replace an assessment of a club’s own contracted income, costs and distribution arrangements.',
         ],
-        quote: 'The price of a right reflects yesterday’s audience. Our job is to anticipate tomorrow’s.',
+        quote: 'Market growth is context. Investment value still has to be demonstrated asset by asset.',
       },
       {
         id: 'valuations',
-        h: 'Valuations still anchored in the past',
+        h: 'Growth is not proof of undervaluation',
         p: [
-          'Recent transactions are still valued on historical comparables and revenue multiples. These methods ignore trajectory: they apply the benchmarks of a market that was not growing to an asset that is growing fast.',
-          'That is the asymmetry we look for: a measurable gap between an asset’s value based on its probable future revenue and the price at which the market is willing to trade it today.',
+          'This revenue series does not measure transaction prices, profitability, audience growth or valuations. It cannot establish that women’s sport is the most undervalued market in global sport.',
+          'An investment assessment must consider the entry price, quality of cash flows, costs, governance and downside scenarios. The possibility of value creation is an investment thesis, not a conclusion demonstrated by this chart.',
         ],
       },
       {
         id: 'conclusions',
         h: 'What we conclude',
         p: [
-          'Three implications guide our strategy. First, invest ahead of the rights cycle: value creation concentrates around renegotiations. Second, governance first: a club or league only captures growth if it is structured to convert it into revenue. Finally, patience: a seven-to-ten-year horizon spans two full rights cycles.',
+          'Our conviction is to support organisations with patient capital and operational expertise. Published market data informs that work, but neither market growth nor a forecast guarantees an investment return.',
           'Women’s sport does not need patrons. It needs demanding investors who treat it as an asset in its own right.',
         ],
       },
     ],
-    method: 'The indices shown are built by Freya Sports Partners from public and proprietary data. They are illustrative, do not constitute a forecast and should not form the basis of any investment decision.',
+    method: 'Source: Deloitte, Game changers: Unlocking the potential of women’s sports (2026), Figure 1, printed page 4. Global elite women’s sports revenue: 2022–2025 estimates; 2026 forecast. USD, nominal published values; no inflation adjustment. Revenue composition percentages are rounded. No Freya audience or valuation index is presented. This note is not investment advice.',
   },
   'media-rights-the-end-of-exclusivity': {
     authors: ['jm', 'hl'],

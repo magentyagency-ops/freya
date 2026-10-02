@@ -68,6 +68,52 @@ void main(){
   vC = c;
 }`;
 
+  // Reconstruct a perspective point surface from the reference's image rays.
+  // The water sits close to the camera, while the city and mountains recede.
+  const NICE_VS = `
+attribute vec2 aP;
+attribute vec4 aC;
+uniform float uT, uAmp, uDpr, uAspect, uTanHalfFov;
+uniform mat4 uPV;
+uniform vec3 uMouse, uEye;
+varying vec3 vC;
+varying float vA;
+void main(){
+  float cover = max(1.0, 1.7827/uAspect);
+  vec2 p = vec2((aP.x - 1.0)*cover + 1.0, -aP.y);
+  float y = (aP.y + 1.0)*0.5;
+  float x = (aP.x + 1.0)*0.5;
+  float coast = 0.506 + 0.35*pow(max(0.0, (x - 0.255)/0.745), 2.25);
+  float sea = smoothstep(coast + 0.016, coast + 0.045, y);
+  float ground = 2.4;
+  float waterDepth = clamp(ground/(max(0.025, -p.y)*uTanHalfFov), 6.0, 52.0);
+  float shoreDepth = clamp(ground/(max(0.025, 2.0*coast - 1.0)*uTanHalfFov), 7.0, 48.0);
+  float cityDepth = shoreDepth + max(0.0, coast - y)*24.0;
+  float mountain = 1.0 - smoothstep(0.40, 0.49, y);
+  float landDepth = mix(cityDepth, 48.0 + 4.0*sin(x*5.0), mountain);
+  float depth = mix(landDepth, waterDepth, sea);
+  vec3 w = vec3(p.x*depth*uTanHalfFov*uAspect, p.y*depth*uTanHalfFov, -depth);
+  float light = dot(aC.rgb, vec3(0.2126, 0.7152, 0.0722));
+  float warm = smoothstep(0.05, 0.35, aC.r - aC.b);
+  float grain = fract(sin(dot(aP, vec2(127.1, 311.7)))*43758.5453) - 0.5;
+  w.z += grain*0.45*(1.0 - sea) + light*0.35*(1.0 - sea);
+  vec2 delta = p - uMouse.xy;
+  vec2 metric = delta*vec2(uAspect, 1.0);
+  float d = length(metric);
+  float ripple = exp(-d*d*8.0)*uMouse.z;
+  w.xy += delta*depth*0.015*ripple;
+  w.y += (0.38 + sin(d*24.0 - uT*2.0)*0.14)*ripple;
+  w.y += sea*(sin(w.x*0.65 + w.z*0.5 + uT*0.65)*0.12
+    + sin(w.x*1.25 - w.z*0.8 - uT*0.9)*0.06)*uAmp;
+  gl_Position = uPV*vec4(w, 1.0);
+  float cameraDepth = distance(w, uEye);
+  vec3 ice = mix(vec3(0.16, 0.33, 0.52), vec3(0.72, 0.84, 0.95), light);
+  vC = mix(ice, aC.rgb*1.25, 0.35 + warm*0.6);
+  float haze = 1.0 - smoothstep(35.0, 75.0, cameraDepth)*0.32;
+  vA = aC.a*uAmp*(0.85 + light*0.65)*haze;
+  gl_PointSize = uDpr*clamp(0.85 + light*0.7 + (9.0/cameraDepth)*(0.7 + warm*0.5), 0.9, 3.5);
+}`;
+
   const FS = `
 precision mediump float;
 varying vec3 vC;
@@ -123,7 +169,14 @@ void main(){
     },
   };
 
-  function surface(canvas) {
+  async function surface(canvas) {
+    const nice = canvas.dataset.nice === '1';
+    let cloud = null;
+    if (nice) {
+      const response = await fetch('assets/img/nice-points.bin');
+      if (!response.ok) throw new Error('Nice point cloud unavailable');
+      cloud = await response.arrayBuffer();
+    }
     const gl = canvas.getContext('webgl', { antialias: false, alpha: false, depth: false, powerPreference: 'high-performance' });
     if (!gl) return false;
     const mk = (type, src) => {
@@ -134,25 +187,37 @@ void main(){
       return s;
     };
     const prog = gl.createProgram();
-    gl.attachShader(prog, mk(gl.VERTEX_SHADER, VS));
+    gl.attachShader(prog, mk(gl.VERTEX_SHADER, nice ? NICE_VS : VS));
     gl.attachShader(prog, mk(gl.FRAGMENT_SHADER, FS));
     gl.linkProgram(prog);
     if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(prog));
     gl.useProgram(prog);
 
     const dense = canvas.dataset.density === 'low' || F.vw < 760;
-    const NX = dense ? 150 : 300, NZ = dense ? 96 : 176;
-    const pos = new Float32Array(NX * NZ * 2);
+    const header = nice ? new DataView(cloud) : null;
+    const NX = nice ? header.getUint16(0, true) : dense ? 150 : 300;
+    const NZ = nice ? header.getUint16(2, true) : dense ? 96 : 176;
+    let pos = new Float32Array(NX * NZ * 2);
     let k = 0;
     for (let j = 0; j < NZ; j++) for (let i = 0; i < NX; i++) { pos[k++] = (i / (NX - 1)) * 2 - 1; pos[k++] = (j / (NZ - 1)) * 2 - 1; }
+    const pointCount = NX*NZ;
+    const colourData = nice ? new Uint8Array(cloud, 4) : null;
     const buf = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buf);
     gl.bufferData(gl.ARRAY_BUFFER, pos, gl.STATIC_DRAW);
     const aP = gl.getAttribLocation(prog, 'aP');
     gl.enableVertexAttribArray(aP);
     gl.vertexAttribPointer(aP, 2, gl.FLOAT, false, 0, 0);
+    if (nice) {
+      const colours = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, colours);
+      gl.bufferData(gl.ARRAY_BUFFER, colourData, gl.STATIC_DRAW);
+      const aC = gl.getAttribLocation(prog, 'aC');
+      gl.enableVertexAttribArray(aC);
+      gl.vertexAttribPointer(aC, 4, gl.UNSIGNED_BYTE, true, 0, 0);
+    }
     const U = {};
-    ['uPV', 'uEye', 'uT', 'uAmp', 'uDpr', 'uSize', 'uMouse', 'uIso'].forEach((n) => (U[n] = gl.getUniformLocation(prog, n)));
+    ['uPV', 'uEye', 'uT', 'uAmp', 'uDpr', 'uSize', 'uMouse', 'uIso', 'uAspect', 'uTanHalfFov'].forEach((n) => (U[n] = gl.getUniformLocation(prog, n)));
     gl.enable(gl.BLEND);
     gl.blendFunc(gl.ONE, gl.ONE);
     gl.clearColor(3 / 255, 5 / 255, 8 / 255, 1);
@@ -173,7 +238,7 @@ void main(){
 
     const camY = parseFloat(canvas.dataset.camY || '3.2');
     const iso = parseFloat(canvas.dataset.iso || '1');
-    let mouse = [0, 2, 0], mTarget = [0, 2, 0], mStr = 0, mStrT = 0;
+    let mouse = [0, nice ? 0 : 2, 0], mTarget = [0, nice ? 0 : 2, 0], mStr = 0, mStrT = 0;
     let ndc = null, pv = null, eye = [0, camY, 9.5];
     let amp = F.reduced ? 1 : 0, ampT = 0, born = 0;
     let scrollP = 0;
@@ -196,13 +261,21 @@ void main(){
       if (!F.reduced) amp = ampT ? F.easeInOut(F.clamp(life / 2.8)) : 0;
       const asp = W / H;
       const drift = Math.sin(t * 0.045) * 1.1;
-      const mx = ndc ? ndc[0] : 0, my = ndc ? ndc[1] : 0;
+      const mx = nice ? mouse[0]*mStr : ndc ? ndc[0] : 0;
+      const my = nice ? mouse[1]*mStr : ndc ? ndc[1] : 0;
       eye = [drift + mx * 0.5, camY + scrollP * 2.2 + my * 0.25, 9.6 - scrollP * 1.5];
-      const target = [drift * 0.4 + mx * 0.9, -0.3 - scrollP * 0.6, -2.4];
+      let target = [drift * 0.4 + mx * 0.9, -0.3 - scrollP * 0.6, -2.4];
       const fov = asp < 1 ? 0.95 : 0.7;
+      if (nice) {
+        const floatX = F.reduced ? 0 : Math.sin(t*0.12)*0.18;
+        const floatY = F.reduced ? 0 : Math.sin(t*0.09)*0.06;
+        eye = [floatX + mx*0.8, floatY + my*0.32 + scrollP*0.5, scrollP*0.8];
+        target = [0, 0, -28];
+      }
       pv = M.mul(M.persp(fov, asp, 0.1, 60), M.look(eye, target, [0, 1, 0]));
 
-      if (ndc) {
+      if (ndc && nice) mTarget = ndc;
+      if (ndc && !nice) {
         const inv = M.inv(pv);
         if (inv) {
           const a = M.tx(inv, [ndc[0], ndc[1], -1]), b = M.tx(inv, [ndc[0], ndc[1], 1]);
@@ -222,8 +295,10 @@ void main(){
       gl.uniform1f(U.uDpr, dpr);
       gl.uniform1f(U.uSize, F.vw < 760 ? 15.0 : 19.0);
       gl.uniform1f(U.uIso, iso);
+      gl.uniform1f(U.uAspect, asp);
+      gl.uniform1f(U.uTanHalfFov, Math.tan(fov/2));
       gl.uniform3f(U.uMouse, mouse[0], mouse[1], F.reduced ? 0 : mStr);
-      gl.drawArrays(gl.POINTS, 0, NX * NZ);
+      gl.drawArrays(gl.POINTS, 0, pointCount);
     };
 
     let stop = null, onScreen = true;
@@ -247,11 +322,11 @@ void main(){
 
   F.mod('surface', () => {
     F.$$('[data-gl="surface"]').forEach((c) => {
-      try {
-        if (surface(c)) F.root.classList.add('has-gl');
-      } catch (err) {
+      surface(c).then((ready) => {
+        if (ready) F.root.classList.add('has-gl');
+      }).catch((err) => {
         console.warn('[Freya] WebGL indisponible :', err.message);
-      }
+      });
     });
   });
 })();

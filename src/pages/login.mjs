@@ -1,5 +1,6 @@
 import { html } from '../lib/html.mjs';
-import { icon, mark } from '../lib/icons.mjs';
+import { icon } from '../lib/icons.mjs';
+import { brand } from '../lib/brand.mjs';
 import { btn } from '../lib/ui.mjs';
 import { site } from '../config.mjs';
 
@@ -18,7 +19,7 @@ export function render() {
     <section class="portal__visual" data-theme="void" data-gl-host>
       <canvas class="portal__gl" data-gl="surface" data-density="low" data-cam-y="3.6" aria-hidden="true"></canvas>
       <div class="portal__veil" aria-hidden="true"></div>
-      <a class="brand portal__brand" href="index.html" aria-label="Freya Sports Partners — Home">${mark()}<span class="brand__word">FREYA</span><span class="brand__sub">Sports<br>Partners</span></a>
+      ${brand('portal__brand')}
       <div class="portal__caption">
         <span class="label label--dot" data-reveal>Investor portal</span>
         <h2 class="h1" data-split>Your portfolio,<br><span class="dim">with full discretion.</span></h2>

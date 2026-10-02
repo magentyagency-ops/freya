@@ -14,7 +14,7 @@ export const meta = {
 const groups = [
   ['Firm', [['index.html', 'Home'], ['firm.html', 'The Firm'], ['approach.html', 'Approach'], ['team.html', 'Team'], ['impact.html', 'Impact'], ['careers.html', 'Careers']]],
   ['Strategies', [['strategies.html', 'Overview'], ['womens-sport.html', 'Women’s sport'], ['strategies.html#assets', 'Sports assets'], ['strategies.html#media', 'Media, data & rights'], ['strategies.html#credit', 'Structured credit'], ['advisory.html', 'Advisory']]],
-  ['Investors', [['portfolio.html', 'Portfolio'], ['investors.html', 'Investor relations'], ['login.html', 'Investor portal']]],
+  ['Investors', [['portfolio.html', 'Portfolio'], ['investors.html', 'Investor relations']]],
   ['Resources', [['news.html', 'News'], ['insights.html', 'Insights'], ['press.html', 'Press'], ['contact.html', 'Contact'], ['legal-notice.html', 'Legal notice'], ['privacy.html', 'Privacy']]],
 ];
 

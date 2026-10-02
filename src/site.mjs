@@ -3,23 +3,18 @@ import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { layout } from './lib/layout.mjs';
-import { markPaths } from './lib/icons.mjs';
-import { wordmark } from './lib/wordmark.mjs';
+import { logoAsset, iconAsset } from './lib/brand.mjs';
 import { site } from './config.mjs';
 
 const PAGES = path.join(path.dirname(fileURLToPath(import.meta.url)), 'pages');
 
 const brandFiles = () => {
-  const markSvg = (stroke, bg = null, size = 28) =>
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32" width="${size}" height="${Math.round((size * 32) / 28)}">${bg ? `<rect x="-2" y="0" width="32" height="32" fill="${bg}"/>` : ''}<g fill="none" stroke="${stroke}" stroke-width="2.6">${markPaths}</g></svg>`;
-  const logo = (fg, sub) =>
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${wordmark.width} 40" width="${wordmark.width * 2}" height="80"><g fill="none" stroke="${fg}" stroke-width="2.6" transform="translate(2 4)">${markPaths}</g><path fill="${fg}" d="${wordmark.word}"/><path d="M${wordmark.ruleX} 9V31" stroke="${sub}" stroke-opacity=".5"/><path fill="${sub}" d="${wordmark.sports}${wordmark.partners}"/></svg>`;
   return {
-    'assets/brand/favicon.svg': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#06090d"/><g fill="none" stroke="#e8edf1" stroke-width="2.6" transform="translate(4 0)">${markPaths}</g></svg>`,
-    'assets/brand/freya-mark.svg': markSvg('#06090d', null, 112),
-    'assets/brand/freya-mark-light.svg': markSvg('#e8edf1', null, 112),
-    'assets/brand/freya-logo-dark.svg': logo('#06090d', '#4a5664'),
-    'assets/brand/freya-logo-light.svg': logo('#e8edf1', '#84909e'),
+    'assets/brand/favicon.svg': iconAsset(),
+    'assets/brand/freya-mark.svg': logoAsset('#06090d'),
+    'assets/brand/freya-mark-light.svg': logoAsset('#e8edf1'),
+    'assets/brand/freya-logo-dark.svg': logoAsset('#06090d'),
+    'assets/brand/freya-logo-light.svg': logoAsset('#e8edf1'),
   };
 };
 

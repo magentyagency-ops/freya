@@ -47,7 +47,7 @@
   border-top: 1px solid var(--line);
 }
 .ftr__brand { grid-column: 1 / span 5; display: flex; flex-direction: column; gap: 22px; }
-.ftr__brand .brand .mark { width: 22px; height: 26px; }
+.ftr__brand .brand .freya-logo { width: 220px; }
 .ftr__about { color: var(--fg-3); font-size: var(--fs-sm); max-width: 26rem; }
 
 .news { margin-top: 18px; max-width: 30rem; display: grid; gap: 12px; }
@@ -128,13 +128,7 @@
   margin-bottom: -0.6%;
   user-select: none;
 }
-.ftr__giant svg { width: 100%; height: auto; overflow: visible; }
-.ftr__giant text {
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 250px;
-  letter-spacing: -0.02em;
-}
+.ftr__giant svg { width: 100%; height: auto; color: #b9d3e6; opacity: .17; mask-image: linear-gradient(180deg, #000, transparent 100%); }
 
 .ftr__bottom {
   display: flex;

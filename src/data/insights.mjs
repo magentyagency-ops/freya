@@ -13,8 +13,8 @@ export const insights = [
     slug: 'womens-sport-anatomy-of-a-market',
     cat: 'research', date: '2026-09-18', read: 14, cover: 'ridges', featured: true,
     title: 'Women’s sport: anatomy of an accelerating market',
-    excerpt: 'Audiences, sponsorship, rights, valuations: four curves moving at different speeds. The gap between them is the best opportunity in the sports economy.',
-    points: ['Audiences lead revenues by one to three rights cycles.', 'Sponsorship captures growth faster than ticketing.', 'Valuations remain anchored to historical comparables.'],
+    excerpt: 'Deloitte’s published revenue estimates show a growing market. What these figures tell us — and what they cannot tell us about investment value.',
+    points: ['Deloitte estimates 2025 revenue at US$2.41bn.', 'The 2026 forecast is US$3.04bn, not a realised result.', 'Revenue growth alone does not establish undervaluation.'],
     full: true,
   },
   {

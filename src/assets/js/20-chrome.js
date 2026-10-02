@@ -7,34 +7,19 @@
   F.mod('preloader', () => {
     const pre = F.$('[data-preloader]');
     if (!pre || !root.classList.contains('is-intro')) {
+      pre?.remove();
       F._resolveIntro();
       return;
     }
-    const count = F.$('[data-pre-count]', pre);
-    const bar = F.$('[data-pre-bar]', pre);
-    const status = F.$('[data-pre-status]', pre);
-    const steps = ['Calibrating models', 'Aggregating signals', 'Surface ready'];
-    const start = performance.now();
-    const dur = 1900;
-    const stop = F.loop((t) => {
-      const p = Math.min(1, (t - start) / dur);
-      const e = F.easeInOut(p);
-      count.textContent = String(Math.round(e * 100)).padStart(3, '0');
-      bar.style.setProperty('--p', e.toFixed(4));
-      status.textContent = steps[Math.min(steps.length - 1, Math.floor(p * steps.length))];
-      if (p >= 1) {
-        stop();
-        setTimeout(() => {
-          pre.classList.add('is-done');
-          F._resolveIntro();
-          try { sessionStorage.setItem('fsp-intro', '1'); } catch (e) {}
-          setTimeout(() => {
-            root.classList.remove('is-intro');
-            pre.remove();
-          }, 1050);
-        }, 180);
-      }
-    });
+    setTimeout(() => {
+      pre.classList.add('is-done');
+      F._resolveIntro();
+      try { sessionStorage.setItem('fsp-intro-v2', '1'); } catch (e) {}
+      setTimeout(() => {
+        root.classList.remove('is-intro');
+        pre.remove();
+      }, 450);
+    }, 1100);
   });
 
   /* En-tête : état, masquage directionnel, progression, thème de la section survolée */

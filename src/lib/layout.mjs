@@ -1,17 +1,11 @@
 // Gabarit commun à toutes les pages.
 import { html, esc } from './html.mjs';
-import { icon, mark } from './icons.mjs';
+import { icon } from './icons.mjs';
+import { brand, wordmark } from './brand.mjs';
 import { glyph } from './glyphs.mjs';
 import { btn } from './ui.mjs';
 import { site, nav, menu, footerCols, disclaimer, clocks, formEndpoint } from '../config.mjs';
 import { strategies, affaires } from '../data/strategies.mjs';
-
-const brand = (tag = 'a') => html`
-  <${tag} class="brand"${tag === 'a' ? ' href="index.html" aria-label="Freya Sports Partners — Home"' : ''}>
-    ${mark()}
-    <span class="brand__word">FREYA</span>
-    <span class="brand__sub">Sports<br>Partners</span>
-  </${tag}>`;
 
 function megaStrategies() {
   const items = [...strategies, affaires];
@@ -83,7 +77,6 @@ function header(page) {
         </ul>
       </nav>
       <div class="hdr__actions">
-        <a class="hdr__portal" href="login.html">${icon.lock}<span>Investor portal</span></a>
         ${btn('contact.html', 'Contact', { variant: 'solid', size: 'sm', magnetic: false })}
         <button class="burger" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle><span class="burger__txt">Menu</span><span class="burger__lines" aria-hidden="true"><i></i><i></i></span></button>
       </div>
@@ -104,7 +97,6 @@ function header(page) {
       </nav>
       <div class="menu__aside">
         <div class="btns">
-          ${btn('login.html', 'Investor portal', { variant: 'ghost', ico: 'lock', magnetic: false })}
           ${btn('contact.html', 'Contact us', { variant: 'solid', magnetic: false })}
         </div>
         <div class="menu__meta">
@@ -162,22 +154,7 @@ function footer(page) {
           <a class="ibtn" href="mailto:${site.email}" aria-label="Email">${icon.mail}</a>
         </div>
       </div>
-      <div class="ftr__giant" aria-hidden="true" data-giant>
-        <svg viewBox="0 0 1000 214">
-          <defs>
-            <linearGradient id="ftr-fade" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#b9d3e6" stop-opacity=".2"/>
-              <stop offset="1" stop-color="#b9d3e6" stop-opacity="0"/>
-            </linearGradient>
-            <radialGradient id="ftr-spot" gradientUnits="userSpaceOnUse" cx="500" cy="100" r="230">
-              <stop offset="0" stop-color="#a6d4ef" stop-opacity=".55"/>
-              <stop offset="1" stop-color="#a6d4ef" stop-opacity="0"/>
-            </radialGradient>
-          </defs>
-          <text x="500" y="196" text-anchor="middle" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="url(#ftr-fade)">FREYA</text>
-          <text x="500" y="196" text-anchor="middle" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="url(#ftr-spot)" class="ftr__spot">FREYA</text>
-        </svg>
-      </div>
+      <div class="ftr__giant" aria-hidden="true">${wordmark()}</div>
       <div class="ftr__bottom">
         <span>© ${site.year} ${site.name}</span>
         <div class="ftr__legal">
@@ -196,21 +173,12 @@ function footer(page) {
 function preloader() {
   return html`
   <div class="pre" data-preloader aria-hidden="true">
-    <div class="pre__grid"></div>
-    <div class="pre__center">
-      <svg class="pre__mark" viewBox="0 0 28 32"><path d="M8 3v26"/><path d="M8 13.5 21 5"/><path d="M8 21.5 21 13"/></svg>
-      <span class="pre__word">FREYA</span>
-    </div>
-    <div class="wrap pre__foot">
-      <span class="micro">Freya Sports Partners</span>
-      <span class="micro pre__status" data-pre-status>Calibrating models</span>
-      <span class="pre__count num" data-pre-count>000</span>
-    </div>
-    <div class="pre__bar"><i data-pre-bar></i></div>
+    <div class="pre__center">${wordmark('pre__logo')}<span class="pre__line" aria-hidden="true"></span></div>
   </div>`;
 }
 
 export function layout(page, body, ctx) {
+  const withIntro = !page.bare && !page.noindex;
   const title = page.id === 'index' ? `${site.name} — ${page.title}` : `${page.title} — ${site.name}`;
   const url = `${site.url}/${page.id === 'index' ? '' : page.id + '.html'}`;
   const ld = {
@@ -219,7 +187,7 @@ export function layout(page, body, ctx) {
     name: site.name,
     url: site.url,
     email: site.email,
-    logo: `${site.url}/assets/brand/freya-mark.svg`,
+    logo: `${site.url}/assets/brand/freya-sp.svg`,
     description: site.baseline,
     address: { '@type': 'PostalAddress', addressLocality: site.city, addressCountry: 'FR' },
   };
@@ -249,12 +217,12 @@ ${page.noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/GeistMono-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/freya.css?v=${ctx.version}">
-<script>(function(d){d.classList.add('js');try{if(${page.preloader ? 'true' : 'false'}&&!sessionStorage.getItem('fsp-intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('is-intro')}catch(e){}setTimeout(function(){if(!window.__fsp)d.classList.remove('js','is-intro')},3500)})(document.documentElement)</script>
+<script>(function(d){d.classList.add('js');try{if(${withIntro ? 'true' : 'false'}&&!sessionStorage.getItem('fsp-intro-v2')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('is-intro')}catch(e){}setTimeout(function(){if(!window.__fsp)d.classList.remove('js','is-intro')},3500)})(document.documentElement)</script>
 <script defer src="assets/freya.js?v=${ctx.version}"></script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
 <body id="top" class="p-${page.id}">
-${page.preloader ? preloader() : ''}
+${withIntro ? preloader() : ''}
 ${page.bare ? '' : header(page)}
 <main id="main" tabindex="-1">
 ${body}

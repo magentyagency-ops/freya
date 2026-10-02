@@ -7,7 +7,7 @@ import { lineChart, hbars } from '../lib/charts.mjs';
 import { insightCard } from '../lib/cards.mjs';
 import { insights, categories, fmtDate, articleHref } from '../data/insights.mjs';
 import { bodies, authors } from '../data/articles.mjs';
-import { asymmetry } from '../data/metrics.mjs';
+import { womensSportRevenue, womensSportSource } from '../data/womens-sport.mjs';
 import { site } from '../config.mjs';
 
 const initials = (n) => n.split(/[\s-]+/).filter((w) => /^[A-ZÉ]/.test(w)).map((w) => w[0]).slice(0, 2).join('');
@@ -17,25 +17,24 @@ function section(s) {
   if (s.figures) {
     extra += html`
     <div class="art__figs">
-      ${[['×4.7', 'Audience'], ['×2.8', 'Revenue'], ['×1.6', 'Valuations']].map(([v, l], i) => `<div class="${i === 0 ? 'is-hi' : ''}"><span>${v}</span><small>${l} · 2018 → 2026</small></div>`).join('')}
+      ${[['$1.88bn', '2024 · estimate'], ['$2.41bn', '2025 · estimate'], ['$3.04bn', '2026 · forecast']].map(([v, l], i) => `<div class="${i === 0 ? 'is-hi' : ''}"><span>${v}</span><small>${l} · Deloitte</small></div>`).join('')}
     </div>`;
   }
-  if (s.chart === 'asym') extra += lineChart({ id: 'fig-art-1', fig: 'Fig. 01', title: 'Elite women’s sport audience and revenue — index 2018 = 100', ...asymmetry, gapLabel: 'Asymmetry', compact: true });
+  if (s.chart === 'asym') extra += lineChart({ id: 'fig-art-1', fig: 'Fig. 01', title: 'Global elite women’s sport — annual revenue (USD millions)', ...womensSportRevenue });
   if (s.chart === 'bars') {
     extra += hbars({
       id: 'fig-art-2',
       fig: 'Fig. 02',
-      title: 'Average annual revenue growth by source, 2021–2026',
+      title: 'Global elite women’s sport — revenue mix, 2025 (estimated)',
       items: [
-        { label: 'Sponsorship', value: 24, hi: true },
-        { label: 'Media rights', value: 19 },
-        { label: 'Ticketing', value: 14 },
-        { label: 'Merchandise', value: 11 },
-        { label: 'Public funding', value: 3 },
+        { label: 'Commercial', sub: 'Sponsorship, merchandising & licensing', value: 46, hi: true },
+        { label: 'Matchday', value: 31 },
+        { label: 'Broadcast', value: 23 },
       ],
       unit: '%',
-      max: 28,
-      source: 'Freya model — illustrative data.',
+      max: 100,
+      source: `<a href="${womensSportSource}" target="_blank" rel="noopener noreferrer">Deloitte · Game changers (2026), Fig. 1, p. 4 ↗</a>`,
+      note: 'Share of 2025 revenue, not annual growth. Rounded percentages.',
     });
   }
   return html`

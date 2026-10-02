@@ -1,106 +1,34 @@
 import { html } from '../lib/html.mjs';
-import { icon } from '../lib/icons.mjs';
-import { sigil } from '../lib/glyphs.mjs';
-import { pageHero, facts, ctaBand } from '../lib/ui.mjs';
-import { portfolio, stratLabels } from '../data/portfolio.mjs';
+import { btn, ctaBand } from '../lib/ui.mjs';
+import { wordmark } from '../lib/brand.mjs';
 
 export const meta = {
-  id: 'portfolio',
-  section: 'portfolio',
-  title: 'Portfolio',
-  description: 'Freya Sports Partners’ holdings, presented under code names: women’s sport, sports assets, media and data, structured credit.',
+  id: 'portfolio', section: 'portfolio', title: 'OGC Nice Women — Our Flagship Investment',
+  description: 'OGC Nice Women, Freya Sports Partners’ principal investment. Supporting women’s football, player development and a long-term sporting ambition on the French Riviera.',
   headerTheme: 'void',
 };
 
-const statusLabel = { active: 'Active', realised: 'Realised' };
-
-function tpl(p, i) {
-  return html`
-  <template id="tpl-p-${i}">
-    <div class="pdet__head">
-      <div class="pdet__sigil">${sigil(p.code)}</div>
-      <div>
-        <span class="label label--dot">P-${String(i + 1).padStart(2, '0')} · ${stratLabels[p.strat]}</span>
-        <h2 class="pdet__code" id="drawer-title">${p.code}</h2>
-        <p class="body">${p.desc}</p>
-      </div>
-    </div>
-    <div class="pdet__kpis">${p.kpis.map(([k, v]) => `<div><span class="pdet__kv">${v}</span><span class="micro">${k}</span></div>`)}</div>
-    <div class="prose"><h3 class="label">Thesis</h3><p>${p.thesis}</p></div>
-    <div><h3 class="label">Value creation levers</h3><ul class="ticks">${p.levers.map((l) => `<li>${l}</li>`)}</ul></div>
-    ${facts([['Instrument', p.instr], ['Year', String(p.year)], ['Region', p.region], ['Status', statusLabel[p.status]]])}
-    <p class="ill">Illustrative data — detailed information restricted to investors</p>
-  </template>`;
-}
+const pillars = [
+  ['01', 'Sporting excellence.', 'Back the next generation of players.', 'A long-term focus on talent development, recruitment and the conditions that allow female players and teams to perform.'],
+  ['02', 'Commercial ambition.', 'Turn connection into opportunity.', 'Develop partnerships, visibility and a compelling matchday experience for women’s football, grounded in the team’s identity and its Riviera setting.'],
+  ['03', 'Lasting foundations.', 'Grow without losing our roots.', 'Support the foundations of the women’s programme: player pathways, the sporting environment and a lasting connection with the local community.'],
+];
 
 export function render() {
-  const active = portfolio.filter((p) => p.status === 'active').length;
-  const count = (k) => portfolio.filter((p) => p.strat === k).length;
   return html`
-  ${pageHero({
-    code: 'P-00 / Portfolio',
-    label: 'Portfolio',
-    title: 'Positions<br><span class="dim">built with conviction.</span>',
-    lead: 'Our holdings are presented under code names, in line with our confidentiality commitments. Detailed information is available to investors.',
-    aside: facts([['Positions', String(portfolio.length)], ['Active', String(active)], ['Realised', String(portfolio.length - active)], ['Countries', '7']]),
-    visual: `<div class="pf-visual" aria-hidden="true">${portfolio.map((p) => `<span>${sigil(p.code)}</span>`).join('')}</div><div class="phero__veil"></div>`,
-    crumbs: [[null, 'Portfolio']],
-  })}
-
-  <section class="sec" data-theme="void">
+  <section class="nice-hero" data-theme="void" aria-labelledby="nice-title">
     <div class="wrap">
-      <div class="filters" data-filters="pf-grid">
-        <div class="filters__groups">
-          <div class="seg" role="group" aria-label="Filter by strategy" data-filter-group="strat">
-            <button class="seg__btn" type="button" data-filter="all" aria-pressed="true">All <sup>${portfolio.length}</sup></button>
-            ${Object.entries(stratLabels).map(([k, l]) => `<button class="seg__btn" type="button" data-filter="${k}" aria-pressed="false">${l} <sup>${count(k)}</sup></button>`)}
-          </div>
-          <div class="seg" role="group" aria-label="Filter by status" data-filter-group="status">
-            <button class="seg__btn" type="button" data-filter="all" aria-pressed="true">All statuses</button>
-            <button class="seg__btn" type="button" data-filter="active" aria-pressed="false">Active</button>
-            <button class="seg__btn" type="button" data-filter="realised" aria-pressed="false">Realised</button>
-          </div>
-        </div>
-        <div class="filters__end">
-          <span class="filter-count" data-filter-count aria-live="polite">${portfolio.length} results</span>
-          <div class="views" role="group" aria-label="View">
-            <button type="button" data-view="grid" aria-pressed="true" aria-label="Grid">${icon.grid}</button>
-            <button type="button" data-view="list" aria-pressed="false" aria-label="List">${icon.list}</button>
-          </div>
-        </div>
-      </div>
-
-      <ul class="pf" id="pf-grid" data-layout="grid">
-        ${portfolio.map((p, i) => html`
-          <li class="pf__item" data-filter-item data-tags="${p.strat} ${p.status}" data-reveal style="--d:${i % 4}">
-            <button class="pcase spot" type="button" data-drawer-open="tpl-p-${i}">
-              <span class="pcase__top"><span class="idx">P-${String(i + 1).padStart(2, '0')}</span><span class="pcase__status${p.status === 'active' ? ' is-on' : ''}">${statusLabel[p.status]}</span></span>
-              <span class="pcase__sigil">${sigil(p.code)}</span>
-              <span class="pcase__code">${p.code}</span>
-              <span class="pcase__desc">${p.desc}</span>
-              <span class="pcase__meta"><span>${stratLabels[p.strat]}</span><span>${p.year}</span><span>${p.region}</span></span>
-            </button>
-          </li>`)}
-      </ul>
-      <p class="pf__empty body-sm" data-filter-empty hidden>No position matches these filters.</p>
-      ${portfolio.map(tpl)}
-      <p class="ill pf__note">Illustrative portfolio. Code names do not reveal the identity of holdings.</p>
+      <div class="nice-hero__top"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Freya</a><span>/</span><span aria-current="page">Portfolio</span></nav><span class="micro">FSP / Flagship investment</span></div>
+      <div class="nice-hero__intro"><span class="label nice-label">Our principal investment</span><span class="micro">Women’s football · Nice, France</span></div>
+      <div class="nice-hero__head"><h1 id="nice-title">OGC <span>Nice.</span><small>Féminines</small></h1><div class="nice-hero__side"><span class="nice-hero__dash" aria-hidden="true"></span><p>Her game. Our conviction.<br>A shared ambition.</p><a class="link" href="#nice-conviction"><span>Discover our conviction</span><span aria-hidden="true">↓</span></a></div></div>
+      <figure class="nice-photo"><img src="assets/img/ogc-nice-team-photo.png" alt="The OGC Nice women’s team and staff gathered together at the club’s training ground." width="2000" height="800" fetchpriority="high"><div class="nice-photo__shade" aria-hidden="true"></div><div class="nice-photo__caption"><span class="micro">Les Aiglonnes / Nice, Côte d’Azur</span><span class="nice-photo__motto">Issa Nissa.</span></div><div class="nice-photo__tag" aria-label="Freya SP × OGC Nice Féminines"><span class="nice-photo__freya">${wordmark()}</span><span class="nice-photo__multiply" aria-hidden="true">×</span><span class="nice-photo__partner"><strong>OGC NICE</strong><small>Féminines</small></span></div></figure>
+      <div class="nice-facts"><div><span class="nice-facts__value nice-facts__value--text">Women’s football</span><span class="label">Our core conviction</span></div><div><span class="nice-facts__value nice-facts__value--text">Les Aiglonnes</span><span class="label">The team at the heart of it</span></div><div><span class="nice-facts__value nice-facts__value--text">Nice</span><span class="label">Rooted in the Riviera</span></div><div><span class="nice-facts__value nice-facts__value--text">Rouge & Noir</span><span class="label">An unmistakable identity</span></div></div>
     </div>
   </section>
-
-  ${ctaBand({
-    label: 'Investors',
-    title: 'Access portfolio<br><span class="dim">details.</span>',
-    text: 'Valuations, KPIs and board minutes are available in the data room for Freya Sports Partners investors.',
-    primary: ['investors.html', 'Investor centre'],
-    secondary: ['login.html', 'Secure portal'],
-  })}
-
-  <aside class="drawer" data-drawer aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
-    <div class="drawer__scrim" data-drawer-close></div>
-    <div class="drawer__panel" data-theme="dark">
-      <button class="ibtn drawer__close" type="button" data-drawer-close aria-label="Close">${icon.close}</button>
-      <div class="drawer__body" data-drawer-body></div>
-    </div>
-  </aside>`;
+  <section class="sec nice-conviction" id="nice-conviction" data-theme="ice">
+    <div class="wrap nice-editorial"><figure class="nice-editorial__visual"><span class="nice-editorial__backdrop" aria-hidden="true">NICE</span><img src="assets/img/ogc-nice-players-cutout.png" alt="Two smiling OGC Nice women’s players celebrating together in their red and black kit." width="1087" height="1446" loading="lazy"></figure><div class="nice-editorial__body"><div class="nice-editorial__meta"><span class="idx">01 / Conviction</span><span class="label">The heart of our portfolio</span></div><h2 class="h1" data-reveal>Deep roots.<br><span class="dim">A bigger horizon.</span></h2><p class="lead" data-reveal>OGC Nice Women is Freya’s principal investment. It brings our core conviction to life: women’s sport deserves the capital, attention and foundations to realise its potential, on and off the pitch.</p><div class="nice-editorial__columns" data-reveal><p>Les Aiglonnes carry the red and black identity of Nice into women’s football. Their story puts female players, local talent and the next generation of girls at the centre of the sporting project.</p><p>Our ambition is to build on that foundation. To support a women’s team that looks ahead, develops talent and creates lasting value — while keeping its players, its city and its supporters at the centre of the story.</p></div><div class="nice-editorial__signature"><span class="label">Freya Sports Partners</span><span class="micro">Long-term capital. Sporting conviction.</span></div></div></div>
+  </section>
+  <section class="sec nice-ambition" data-theme="void"><div class="wrap"><div class="nice-ambition__top"><figure class="nice-squad"><span class="nice-squad__backdrop" aria-hidden="true">NICE</span><img src="assets/img/ogc-nice-women-squad-cutout.png" alt="OGC Nice Féminines, the whole team celebrating together on the pitch." width="1672" height="941" loading="lazy"></figure><div class="nice-section-head"><span class="label"><span class="idx">02</span> / Our ambition</span><div class="nice-section-head__copy"><h2 class="h2" data-reveal>More than a season.<br><span class="dim">A lasting sporting project.</span></h2><p class="lead">Three priorities guide our vision for OGC Nice Women.</p></div></div></div><div class="nice-pillars">${pillars.map(([n, title, sub, text]) => html`<article class="nice-pillar" data-reveal><span class="nice-pillar__number">${n}</span><h3 class="h3">${title}</h3><p class="nice-pillar__sub">${sub}</p><p class="body-sm">${text}</p><span class="nice-pillar__line" aria-hidden="true"></span></article>`)}</div></div></section>
+  <section class="sec nice-identity" data-theme="dark"><div class="wrap nice-identity__grid"><div class="nice-identity__art" aria-hidden="true"><span class="micro">Nice / Côte d’Azur</span><div class="nice-identity__stripes"></div><span class="nice-identity__year nice-identity__year--women">Elles.</span><span class="label">Le Gym. Les Aiglonnes.</span></div><div class="nice-identity__copy"><span class="label"><span class="idx">03</span> / One club. One city.</span><h2 class="h2" data-reveal>The Riviera.<br>The red and black.<br><span class="dim">The next chapter.</span></h2><p class="lead" data-reveal>A women’s team with a distinctive identity and a city behind it. Our vision for Les Aiglonnes connects sporting ambition with opportunity: for the players on the pitch today and the girls who will follow them.</p><div class="nice-identity__links">${btn('https://www.ogcnice.com/fr/rubrique/feminines', 'Discover Les Aiglonnes', { ico: 'arrowUpRight', target: '_blank', rel: 'noopener noreferrer' })}</div></div></div><div class="wrap nice-credit"><a href="https://www.ogcnice.com/fr/rubrique/feminines" target="_blank" rel="noopener noreferrer">Women’s team photograph: OGC Nice</a></div></section>
+  ${ctaBand({label: 'Our principal investment', title: 'Shared ambition.<br><span class="dim">Long-term conviction.</span>', text: 'Discover the investment perspective behind our flagship women’s football project.', primary: ['contact.html', 'Talk to Freya'], secondary: ['investors.html', 'Investor centre']})}`;
 }
