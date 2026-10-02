@@ -208,10 +208,6 @@ function flagship() {
         <p class="home-flagship__eyebrow">Women’s football · Nice, Côte d’Azur</p>
         <h2 class="h1" id="home-flagship-title" data-reveal>OGC Nice<br><span class="dim">Féminines.</span></h2>
         <p class="lead" data-reveal>Les Aiglonnes are at the heart of Freya’s conviction in women’s sport. Our principal investment backs the team’s ambition, its players and the next chapter of football in Nice.</p>
-        <div class="home-flagship__foot" data-reveal>
-          <span class="home-flagship__signature">Long-term capital. Sporting conviction.</span>
-          ${btn('portfolio.html', 'Discover OGC Nice Women', { variant: 'solid', size: 'lg', ico: 'arrowUpRight', cls: 'home-flagship__cta', magnetic: false })}
-        </div>
       </div>
       <figure class="home-flagship__visual" aria-label="OGC Nice Féminines celebrating together">
         <span class="home-flagship__backdrop" aria-hidden="true">NICE</span>
@@ -219,6 +215,10 @@ function flagship() {
         <img src="assets/img/ogc-nice-women-squad-cutout.png" alt="OGC Nice Féminines, the team celebrating together." width="1672" height="941" loading="lazy" decoding="async">
         <figcaption><span class="idx">OGC / 01</span><span class="label">Les Aiglonnes</span></figcaption>
       </figure>
+      <div class="home-flagship__foot" data-reveal>
+        <span class="home-flagship__signature">Long-term capital. Sporting conviction.</span>
+        ${btn('portfolio.html', 'Discover OGC Nice Women', { variant: 'solid', size: 'lg', ico: 'arrowUpRight', cls: 'home-flagship__cta', magnetic: false })}
+      </div>
     </div>
   </section>`;
 }
@@ -323,5 +323,5 @@ function investors() {
 }
 
 export function render() {
-  return [hero(), ticker(), thesis(), numbers(), strategiesScroll(), feature(), flagship(), newsTeaser(), affairesTeaser(), latest(), investors()].join('\n');
+  return [hero(), ticker(), thesis(), /* numbers(), */ strategiesScroll(), feature(), flagship(), newsTeaser(), affairesTeaser(), latest(), investors()].join('\n');
 }
