@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:52:51.831Z",
+ "updated": "2026-10-13T12:31:19.448Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,12 +335,116 @@
  ],
  "wire": [
   {
-   "title": "Almost half of female footballers are considering retiring early, survey shows",
+   "title": "Huge night for Women's World Cup hopes - how are home nations set?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-13T11:43:31.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "‘It changed me a lot’: how Japan’s academy system supercharged women’s team",
+   "url": "https://www.theguardian.com/football/2026/oct/13/how-japan-academy-system-supercharged-womens-team",
+   "source": "The Guardian",
+   "date": "2026-10-13T10:22:04.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Athletics wishes it could scrub the women’s marathon world record – what can be done? | Sean Ingle",
+   "url": "https://www.theguardian.com/sport/2026/oct/13/athletics-scrub-womens-marathon-world-record-ruth-chepngetich",
+   "source": "The Guardian",
+   "date": "2026-10-13T07:00:17.000Z",
+   "sport": "Athletics",
+   "topic": "Competition"
+  },
+  {
+   "title": "Wales given play-off history lesson before Albania second leg",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c83vqw003kdko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-13T03:33:01.000Z",
+   "sport": "Other",
+   "topic": "Governance"
+  },
+  {
+   "title": "2026 WNBA awards winners: Lynx's Cheryl Reeve wins Executive of the Year for third time in career",
+   "url": "https://www.cbssports.com/wnba/news/2026-wnba-awards-winners-full-list-mvp/",
+   "source": "CBS Sports",
+   "date": "2026-10-13T00:52:52.000Z",
+   "sport": "Basketball",
+   "topic": "Players"
+  },
+  {
+   "title": "BBC Women's Football Weekly",
+   "url": "https://www.bbc.co.uk/sounds/play/p0pgbr8n?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-12T18:00:00.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Do Lionesses lack ruthlessness in front of goal?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cwe8rvm8yl93o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-12T16:54:32.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Dream unsure where WNBA Finals home games will be played due to scheduling conflicts at State Farm Arena",
+   "url": "https://www.cbssports.com/wnba/news/dream-wnba-finals-home-games-arena/",
+   "source": "CBS Sports",
+   "date": "2026-10-12T16:23:08.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "McCabe and O'Sullivan to feature in Cork - Ward",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cx1l3p3ve8g9o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-12T16:01:17.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Northern Ireland will have 'one last swing' at World Cup place",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg2r4ewgqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-12T15:46:33.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Atlanta Dream Likely to Host WNBA Finals at Tiny Home Arena",
+   "url": "https://frontofficesports.com/article/atlanta-dream-wnba-finals-arena/",
+   "source": "Front Office Sports",
+   "date": "2026-10-12T15:23:29.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Alcohol allowed at seats for Scotland's World Cup play-off",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c50mew3yw79no?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-12T15:01:24.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Six questions facing England as they target next year’s Women’s World Cup",
+   "url": "https://www.theguardian.com/football/2026/oct/12/england-next-summer-womens-world-cup",
+   "source": "The Guardian",
+   "date": "2026-10-12T14:33:15.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Almost half of female footballers considering retiring early, players’ union survey shows",
    "url": "https://www.theguardian.com/football/2026/oct/12/womens-football-almost-half-considering-retiring-early-survey-fifpro",
    "source": "The Guardian",
    "date": "2026-10-12T11:39:27.000Z",
    "sport": "Football",
-   "topic": "Competition"
+   "topic": "Governance"
   },
   {
    "title": "Women's billion-dollar boom leaves players behind, says Fifpro",
@@ -349,14 +453,6 @@
    "date": "2026-10-12T10:04:50.000Z",
    "sport": "Football",
    "topic": "Players"
-  },
-  {
-   "title": "How do Women's World Cup hopes look for home nations?",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cqzrdmjp5162o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-12T09:27:17.000Z",
-   "sport": "Other",
-   "topic": "Competition"
   },
   {
    "title": "Atlanta Dream scrambling to find WNBA finals venue amid scheduling conflicts",
@@ -453,14 +549,6 @@
    "date": "2026-10-10T14:49:06.000Z",
    "sport": "Basketball",
    "topic": "Competition"
-  },
-  {
-   "title": "2026 WNBA awards winners: Valkyries' Janelle Salaün named Sixth Player of the Year, Angel Reese wins DPOY",
-   "url": "https://www.cbssports.com/wnba/news/2026-wnba-awards-winners-full-list-mvp/",
-   "source": "CBS Sports",
-   "date": "2026-10-10T14:05:07.000Z",
-   "sport": "Basketball",
-   "topic": "Players"
   },
   {
    "title": "A'ja Wilson named 2026 WNBA MVP: Aces star wins third straight, becomes first five-time honoree",
@@ -591,14 +679,6 @@
    "topic": "Competition"
   },
   {
-   "title": "Wales must improve in World Cup bid - Wilkinson",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1z0g17x8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-09T19:34:54.000Z",
-   "sport": "Other",
-   "topic": "Governance"
-  },
-  {
    "title": "Greece 1-3 England: Women’s World Cup playoff semi-final, first leg – as it happened",
    "url": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
    "source": "The Guardian",
@@ -628,70 +708,6 @@
    "source": "CBS Sports",
    "date": "2026-10-09T16:36:53.000Z",
    "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Sports quiz of the week: Harry Kane, Victor Wembanyama and WSL winners",
-   "url": "https://www.theguardian.com/sport/2026/oct/09/sports-quiz-week-harry-kane-wembanyama-wsl-football-tennis-basketball-rugby-hockey-cycling-darts-nfl",
-   "source": "The Guardian",
-   "date": "2026-10-09T11:52:17.000Z",
-   "sport": "Basketball",
-   "topic": "Governance"
-  },
-  {
-   "title": "'You can be a mum and a footballer - they can co-exist'",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck9dzlv95lw3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-09T08:19:59.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "‘One of one’: A’ja Wilson stands alone with record fifth WNBA MVP award",
-   "url": "https://www.theguardian.com/sport/2026/oct/08/aja-wilson-record-fifth-wnba-mvp-award-las-vegas-aces",
-   "source": "The Guardian",
-   "date": "2026-10-08T21:05:10.000Z",
-   "sport": "Basketball",
-   "topic": "Players"
-  },
-  {
-   "title": "No. 1 Women’s Amateur Golfer Discusses Life As an ‘Infant Pro’",
-   "url": "https://frontofficesports.com/article/no-1-womens-amateur-golfer-infant-pro/",
-   "source": "Front Office Sports",
-   "date": "2026-10-08T17:42:06.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Caitlin Clark denounces fan rhetoric, addresses next contract and backs Fever coach in exit interview",
-   "url": "https://www.cbssports.com/wnba/news/caitlin-clark-fan-rhetoric-next-contract-fever-coach-interview/",
-   "source": "CBS Sports",
-   "date": "2026-10-08T16:51:57.000Z",
-   "sport": "Other",
-   "topic": "Players"
-  },
-  {
-   "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-   "url": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-   "source": "The Guardian",
-   "date": "2026-10-08T16:33:25.000Z",
-   "sport": "Football",
-   "topic": "Players"
-  },
-  {
-   "title": "Gloucester-Hartpury sign Australia prop O'Gorman",
-   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmly0vzz1x3eo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-08T15:43:28.000Z",
-   "sport": "Rugby",
-   "topic": "Players"
-  },
-  {
-   "title": "WNBA semis winners and losers: Angel Reese proves clutch as Liberty, Aces face elimination after Game 2 losses",
-   "url": "https://www.cbssports.com/wnba/news/wnba-semis-winners-and-losers-angel-reese-dream-liberty-aces-valkyries-game-2/",
-   "source": "CBS Sports",
-   "date": "2026-10-08T13:01:58.000Z",
-   "sport": "Basketball",
    "topic": "Competition"
   }
  ]
