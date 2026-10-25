@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T09:20:53.227Z",
+ "updated": "2026-10-25T09:38:04.702Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,11 +335,123 @@
  ],
  "wire": [
   {
-   "title": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss",
+   "title": "What have Man Utd changed to turn around WSL form?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
-   "date": "2026-10-24T06:02:44.000Z",
+   "date": "2026-10-25T07:58:04.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Who am I? Guess WSL star No 9",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm3wjyq4gyg7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-25T07:24:39.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "How Valkyries star Gabby Williams found a 'different kind of fire' and inspired her team to Game 4 win",
+   "url": "https://www.cbssports.com/wnba/news/valkyries-gabby-williams-wnba-finals-game-4-win-dream/",
+   "source": "CBS Sports",
+   "date": "2026-10-24T23:16:35.000Z",
    "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Symonds scores screamer as Brighton beat West Ham",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmjrwjlx5q3wo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T22:23:48.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "2026 WNBA Finals: Game 6 venue up in the air for Dream vs. Valkyries with State Farm Arena already booked",
+   "url": "https://www.cbssports.com/wnba/news/2026-wnba-finals-game-6-venue-state-farm-arena-dream-valkyries/",
+   "source": "CBS Sports",
+   "date": "2026-10-24T22:20:29.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "2026 WNBA playoffs bracket, WNBA Finals schedule: Valkyries even series vs. Dream with Game 4 win",
+   "url": "https://www.cbssports.com/wnba/news/2026-wnba-playoffs-bracket-schedule/",
+   "source": "CBS Sports",
+   "date": "2026-10-24T21:50:10.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Valkyries hold off Dream comeback to win Game 4 and level WNBA finals at 2-2",
+   "url": "https://www.theguardian.com/sport/2026/oct/24/golden-state-valkyries-atlanta-dream-game-four-wnba-finals",
+   "source": "The Guardian",
+   "date": "2026-10-24T19:35:03.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "2026 WNBA awards winners: A'ja Wilson, Caitlin Clark and Olivia Miles headline All-WNBA teams",
+   "url": "https://www.cbssports.com/wnba/news/2026-wnba-awards-winners-full-list-mvp/",
+   "source": "CBS Sports",
+   "date": "2026-10-24T16:55:53.000Z",
+   "sport": "Basketball",
+   "topic": "Players"
+  },
+  {
+   "title": "Spurs boss Ho wants 'more support and training' for WSL referees",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmd7q47dd0e7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T16:27:59.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal 2-0 Everton, Coventry 0-1 Fulham: football clockwatch – as it happened",
+   "url": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
+   "source": "The Guardian",
+   "date": "2026-10-24T16:13:12.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal relieve pressure with Spurs win - can they kick on now?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T15:40:01.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "'It's harsh' - was Arsenal's winning penalty a controversial decision?",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cw62ylp68m4po?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T15:03:37.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T14:20:04.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Relief for Slegers as Russo rescues Arsenal against Tottenham in WSL",
+   "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
+   "source": "The Guardian",
+   "date": "2026-10-24T13:59:27.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "No panic for England but Mitchell issues PWR warning",
+   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv0ld9y3g426o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-10-24T09:22:07.000Z",
+   "sport": "Rugby",
    "topic": "Competition"
   },
   {
@@ -519,14 +631,6 @@
    "topic": "Competition"
   },
   {
-   "title": "2026 WNBA playoffs bracket, WNBA Finals schedule: Dream take Game 3 vs. Valkyries",
-   "url": "https://www.cbssports.com/wnba/news/2026-wnba-playoffs-bracket-schedule/",
-   "source": "CBS Sports",
-   "date": "2026-10-22T04:23:43.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
    "title": "Enes Kanter Freedom claims he was denied entry to WNBA finals game in Atlanta",
    "url": "https://www.theguardian.com/sport/2026/oct/21/enes-kanter-freedom-ejected-wnba-finals-atlanta-dream",
    "source": "The Guardian",
@@ -559,14 +663,6 @@
    "topic": "Competition"
   },
   {
-   "title": "NBC, USA Claim Record Audience for Start of WNBA Finals",
-   "url": "https://frontofficesports.com/article/nbc-claims-record-audience-for-start-of-wnba-finals/",
-   "source": "Front Office Sports",
-   "date": "2026-10-21T14:22:16.000Z",
-   "sport": "Basketball",
-   "topic": "Media & rights"
-  },
-  {
    "title": "Ipswich on 'inevitable' path to WSL - Boswell",
    "url": "https://www.bbc.co.uk/sport/football/articles/cqdjvr3mn0yno?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
@@ -589,62 +685,6 @@
    "date": "2026-10-21T11:36:17.000Z",
    "sport": "Football",
    "topic": "Competition"
-  },
-  {
-   "title": "Gabby Thomas, Melissa Jefferson-Wooden and the doping tensions dividing sprinting",
-   "url": "https://www.theguardian.com/sport/2026/oct/21/gabby-thomas-melissa-jefferson-wooden-dennis-mitchell-doping-sprinting",
-   "source": "The Guardian",
-   "date": "2026-10-21T09:00:04.000Z",
-   "sport": "Athletics",
-   "topic": "Investment"
-  },
-  {
-   "title": "Why Swiatek is ending her 'most demanding' season now",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/c6r7y0jjvvm0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-20T16:24:03.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
-   "url": "https://www.theguardian.com/football/2026/oct/20/uswnt-u-17-samoa-world-cup",
-   "source": "The Guardian",
-   "date": "2026-10-20T15:15:26.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "6-0 Niners survive Commanders' late charge; Rays reach World Series; Reese lights up WNBA Finals",
-   "url": "https://www.cbssports.com/nfl/news/49ers-commanders-nfl-rays-world-series-mlb-reese-wnba-finals/",
-   "source": "CBS Sports",
-   "date": "2026-10-20T12:53:40.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "How Brazil’s election result could shape women’s football in the country",
-   "url": "https://www.theguardian.com/football/2026/oct/20/how-brazils-election-result-could-shape-womens-football-in-the-country",
-   "source": "The Guardian",
-   "date": "2026-10-20T12:28:54.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Two more years for Sarina, six more goals against Spurs, and Arsenal boos – Women’s Football Weekly",
-   "url": "https://www.theguardian.com/football/audio/2026/oct/20/two-more-years-for-sarina-six-more-goals-against-spurs-and-arsenal-boos-womens-football-weekly",
-   "source": "The Guardian",
-   "date": "2026-10-20T10:11:55.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "The Breakdown | ‘Freer’ Red Roses resolve to come back stronger after Canada end epic run",
-   "url": "https://www.theguardian.com/sport/2026/oct/20/england-women-red-roses-canada-end-epic-winning-run-rugby-union",
-   "source": "The Guardian",
-   "date": "2026-10-20T10:00:57.000Z",
-   "sport": "Rugby",
-   "topic": "Governance"
   }
  ]
 }
