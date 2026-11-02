@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:44:18.093Z",
+ "updated": "2026-11-02T13:14:23.630Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,18 +335,162 @@
  ],
  "wire": [
   {
-   "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
-   "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-   "source": "The Guardian",
-   "date": "2026-11-01T11:38:18.000Z",
+   "title": "Every goal from the Women's Super League - matchweek eight",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c6rmy008xmzxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-02T11:42:40.000Z",
    "sport": "Football",
    "topic": "Competition"
   },
   {
-   "title": "Britain's Dart wins first WTA title of her career",
+   "title": "WSL talking points: Kang could have a problem and how long can Slegers hang on?",
+   "url": "https://www.theguardian.com/football/2026/nov/02/wsl-talking-points-michele-kang-london-city-lionesses-renee-slegers-arsenal",
+   "source": "The Guardian",
+   "date": "2026-11-02T11:29:49.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "WSL roundup: Arsenal stall despite Russo strike; Chelsea’s James suffers injury",
+   "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
+   "source": "The Guardian",
+   "date": "2026-11-01T20:17:13.000Z",
+   "sport": "Tennis",
+   "topic": "Players"
+  },
+  {
+   "title": "Brighton bounce back to beat struggling Palace",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cqrkyrkz5x38o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T20:17:01.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "West Ham leapfrog Liverpool after four-goal thrashing",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cw77pk7mj4v6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T20:14:04.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Spurs end Birmingham's unbeaten home run with emphatic win",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c9n73j72dlvno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T20:10:56.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Clinical Man City edge past London City in WSL thriller",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1rgey8j7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T17:54:43.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Russo rescues late point for Arsenal against Villa",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c678pe84l97go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T17:54:40.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Chelsea put six past Charlton to top WSL",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T17:10:45.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Dream star Angel Reese vows 'we'll be back' after Game 7 loss vs. Valkyries in WNBA Finals",
+   "url": "https://www.cbssports.com/wnba/news/dream-angel-reese-well-be-back-game-7-loss-valkyries-wnba-finals/",
+   "source": "CBS Sports",
+   "date": "2026-11-01T17:00:51.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Charlton 0-6 Chelsea, West Ham 4-1 Liverpool, Birmingham City 1-4 Tottenham, and more: as it happened",
+   "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
+   "source": "The Guardian",
+   "date": "2026-11-01T16:50:37.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "New York City Marathon: Andreas Almgren wins on debut as Sheila Chepkirui reclaims crown",
+   "url": "https://www.theguardian.com/sport/2026/nov/01/new-york-city-marathon-andreas-almgren-wins-on-debut-as-sheila-chepkirui-reclaims-crown",
+   "source": "The Guardian",
+   "date": "2026-11-01T16:33:00.000Z",
+   "sport": "Athletics",
+   "topic": "Competition"
+  },
+  {
+   "title": "‘We have effing unbreakable love’: how the maverick Natalie Nakase led the Valkyries to WNBA glory",
+   "url": "https://www.theguardian.com/sport/2026/nov/01/natalie-nakase-golden-state-valkyries-wnba-championship-culture",
+   "source": "The Guardian",
+   "date": "2026-11-01T16:10:48.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "How Dart revived career with help of Wimbledon champion",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/cmrlyw2y0gxzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T15:55:46.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Defeat for London City - but is Europe a real possibility?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cj93z2nk2694o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T15:49:47.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Spence 'very proud' to break WSL appearance record",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmy4xwwqzvw1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T15:18:43.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Dart reacts to her first WTA title after 'incredible week'",
+   "url": "https://www.bbc.co.uk/sport/tennis/videos/cqj9kgr8kzvyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-01T15:01:34.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
+   "url": "https://www.theguardian.com/football/2026/nov/01/london-city-lionesses-manchester-city-wsl-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-01T14:13:29.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "WNBA Finals Game 7 odds, picks, player props: Dream vs. Valkyries predictions, best bets for Saturday",
+   "url": "https://www.cbssports.com/betting/news/wnba-finals-game-7-odds-picks-player-props-dream-valkyries-predictions-best-bets-saturday/",
+   "source": "CBS Sports",
+   "date": "2026-11-01T14:01:56.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Britain's Dart wins first WTA title in 'wild week'",
    "url": "https://www.bbc.co.uk/sport/tennis/articles/cm62y10v3p96o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
-   "date": "2026-11-01T11:27:04.000Z",
+   "date": "2026-11-01T12:44:28.000Z",
    "sport": "Tennis",
    "topic": "Competition"
   },
@@ -423,14 +567,6 @@
    "topic": "Media & rights"
   },
   {
-   "title": "WNBA Finals Game 7 odds, picks, player props: Dream vs. Valkyries predictions, best bets for Saturday",
-   "url": "https://www.cbssports.com/betting/news/wnba-finals-game-7-odds-picks-player-props-dream-valkyries-predictions-best-bets-saturday/",
-   "source": "CBS Sports",
-   "date": "2026-10-31T19:51:24.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
    "title": "Man Utd held to goalless draw at Everton",
    "url": "https://www.bbc.co.uk/sport/football/videos/c5vgj1gx3r77o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
@@ -487,7 +623,7 @@
    "topic": "Competition"
   },
   {
-   "title": "From her own Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
+   "title": "From her own Barbie doll to bench - how Kildunne slipped from Red Roses' XV",
    "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
    "date": "2026-10-30T16:22:55.000Z",
@@ -533,22 +669,6 @@
    "date": "2026-10-30T09:59:10.000Z",
    "sport": "Football",
    "topic": "Business"
-  },
-  {
-   "title": "Ex-Cheltenham captain says club was turned into 'dictatorship'",
-   "url": "https://www.bbc.co.uk/sport/football/articles/crq5n91ly4pxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-30T09:49:29.000Z",
-   "sport": "Other",
-   "topic": "Players"
-  },
-  {
-   "title": "Dart stuns Badosa to make second career semi-final",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/cq5ynegm2p53o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-30T09:48:36.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
   },
   {
    "title": "‘It’s just USA, blah, blah, blah’: Rising rugby star Bella Vogel out to catch wounded England napping",
@@ -637,78 +757,6 @@
    "date": "2026-10-29T14:34:43.000Z",
    "sport": "Football",
    "topic": "Governance"
-  },
-  {
-   "title": "'Amazing achievement' as Rybakina clinches year-end No 1",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2qr1v11xyo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-29T10:38:08.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "How unbeaten Chelsea are getting back to their best",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9wenqd01o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-28T23:17:33.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Arsenal’s Slegers hails ‘role model’ Russo after historic hat-trick sinks Benfica",
-   "url": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
-   "source": "The Guardian",
-   "date": "2026-10-28T22:21:52.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Russo scores hat-trick as Arsenal beat Benfica",
-   "url": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-28T22:19:57.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "2027 WNBA Draft Lottery odds: Who has the best chance at the No. 1 pick?",
-   "url": "https://www.cbssports.com/wnba/news/2027-wnba-draft-lottery-odds/",
-   "source": "CBS Sports",
-   "date": "2026-10-28T22:01:19.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Arsenal 3-0 Benfica: Women’s Champions League – as it happened",
-   "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
-   "source": "The Guardian",
-   "date": "2026-10-28T21:54:38.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Chelsea continue unbeaten start with win over Roma",
-   "url": "https://www.bbc.co.uk/sport/football/videos/cm17k8x994edo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-28T20:36:25.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "West Ham’s Viviane Asseyi: ‘When I was four I said I wanted to be like Zidane’",
-   "url": "https://www.theguardian.com/football/2026/oct/28/west-ham-women-viviane-asseyi-zidane-wsl",
-   "source": "The Guardian",
-   "date": "2026-10-28T12:26:55.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Dream say WNBA finals concerns went unheeded as teams prepare for 12.30pm Thursday start",
-   "url": "https://www.theguardian.com/sport/2026/oct/28/atlanta-dream-wnba-finals-start-time-game-6",
-   "source": "The Guardian",
-   "date": "2026-10-28T12:24:50.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
   }
  ]
 }
