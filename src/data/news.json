@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:40:18.829Z",
+ "updated": "2026-11-04T12:49:58.592Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,6 +335,78 @@
  ],
  "wire": [
   {
+   "title": "GB's Stojsavljevic, 17, claims first WTA Tour win despite short notice",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglw70n41d7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-04T10:06:10.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "How Carpenter has become Chelsea's surprise star",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cw0k0mr7n1l8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-04T09:55:26.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Death threats for Briton Burrage on WTA Tour return",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-03T20:26:12.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "England shine to win World Deaf Rugby Sevens title",
+   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmwydq2kyq11o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-03T19:58:43.000Z",
+   "sport": "Rugby",
+   "topic": "Competition"
+  },
+  {
+   "title": "WNBA Finals Game 7 Most-Watched Playoff Game Ever With 3.3M Viewers",
+   "url": "https://frontofficesports.com/article/wnba-finals-game-7-draws-3-3m-viewers-most-since-1997/",
+   "source": "Front Office Sports",
+   "date": "2026-11-03T18:44:50.000Z",
+   "sport": "Basketball",
+   "topic": "Media & rights"
+  },
+  {
+   "title": "Biggest WNBA offseason questions: Who will be the new commissioner? What's next for Fever, Liberty and Sparks?",
+   "url": "https://www.cbssports.com/wnba/news/biggest-wnba-offseason-questions-commissioner-fever-sparks-liberty/",
+   "source": "CBS Sports",
+   "date": "2026-11-03T17:12:03.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "PWHL Insists Mark Walter Isn’t Selling League",
+   "url": "https://frontofficesports.com/article/pwhl-insists-mark-walter-isnt-selling-league/",
+   "source": "Front Office Sports",
+   "date": "2026-11-03T16:45:35.000Z",
+   "sport": "Football",
+   "topic": "Investment"
+  },
+  {
+   "title": "Liberty part ways with coach Chris DeMarco, creating the WNBA's best job opening",
+   "url": "https://www.cbssports.com/wnba/news/liberty-coach-chris-demarco-opening-one-of-the-wnbas-best-jobs/",
+   "source": "CBS Sports",
+   "date": "2026-11-03T16:05:52.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Lionesses to face France and Portugal in Nations League",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-03T15:39:21.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
    "title": "24-year-old woman dies after collapsing in final stages of New York City Marathon",
    "url": "https://www.theguardian.com/sport/2026/nov/03/24-year-old-woman-dies-after-collapasing-in-final-stages-of-new-york-city-marathon",
    "source": "The Guardian",
@@ -615,14 +687,6 @@
    "topic": "Competition"
   },
   {
-   "title": "Golden State Valkyries Conquered the WNBA. Up Next? The World",
-   "url": "https://www.sportico.com/leagues/basketball/2026/golden-state-valkyries-wnba-title-valuation-future-1234956954/",
-   "source": "Sportico",
-   "date": "2026-11-01T02:23:17.000Z",
-   "sport": "Basketball",
-   "topic": "Investment"
-  },
-  {
    "title": "Valkyries Make WNBA History With Championship in Second Season",
    "url": "https://frontofficesports.com/article/valkyries-make-wnba-history-with-championship-in-second-season/",
    "source": "Front Office Sports",
@@ -660,62 +724,6 @@
    "source": "The Guardian",
    "date": "2026-10-31T14:59:15.000Z",
    "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Olsen-Baker named Women's World Player of the Year",
-   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm0e02xn583go?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-31T09:24:41.000Z",
-   "sport": "Rugby",
-   "topic": "Competition"
-  },
-  {
-   "title": "Jones challenges Red Roses to keep rivals guessing",
-   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmqjnp85gyxzo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-31T07:27:05.000Z",
-   "sport": "Rugby",
-   "topic": "Players"
-  },
-  {
-   "title": "Red Roses put defeats behind them by crushing USA to extend 35-year streak",
-   "url": "https://www.theguardian.com/sport/2026/oct/30/england-return-to-winning-ways-with-comfortable-victory-over-usa",
-   "source": "The Guardian",
-   "date": "2026-10-30T23:22:15.000Z",
-   "sport": "Rugby",
-   "topic": "Competition"
-  },
-  {
-   "title": "From her own Barbie doll to bench - how Kildunne slipped from Red Roses' XV",
-   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-10-30T16:22:55.000Z",
-   "sport": "Rugby",
-   "topic": "Competition"
-  },
-  {
-   "title": "Putellas provides mindset change as London City bid to upstage champions",
-   "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
-   "source": "The Guardian",
-   "date": "2026-10-30T16:16:24.000Z",
-   "sport": "Football",
-   "topic": "Players"
-  },
-  {
-   "title": "WNBA ‘Assessing’ Possibility of Prediction Market Deals",
-   "url": "https://frontofficesports.com/article/wnba-assessing-possibility-of-prediction-market-deals/",
-   "source": "Front Office Sports",
-   "date": "2026-10-30T15:01:52.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "WNBA’s First Finals Game 7 Comes With a Record Price Tag",
-   "url": "https://frontofficesports.com/article/wnbas-first-finals-game-7-comes-with-a-record-price-tag/",
-   "source": "Front Office Sports",
-   "date": "2026-10-30T14:39:49.000Z",
-   "sport": "Basketball",
    "topic": "Competition"
   }
  ]
