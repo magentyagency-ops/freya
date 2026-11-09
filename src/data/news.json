@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:47:12.670Z",
+ "updated": "2026-11-09T13:41:22.177Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,10 +335,122 @@
  ],
  "wire": [
   {
-   "title": "Liverpool v Arsenal: Women’s Super League – live",
+   "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
+   "url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
+   "source": "The Guardian",
+   "date": "2026-11-09T11:24:37.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Gauff opens WTA Finals with gritty win over Pegula",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T07:20:06.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Fishlock retires after record-breaking career",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T06:32:11.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "‘I’m going to tell the truth. Screw this!’ Billie Jean King at 82 on coming out, tearing up tennis – and her one big regret",
+   "url": "https://www.theguardian.com/sport/2026/nov/09/billie-jean-king-82-coming-out-tennis",
+   "source": "The Guardian",
+   "date": "2026-11-09T05:01:00.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Washington Spirit avert scheduling crisis, keep NWSL semi-final at Audi Field; Gotham venue TBD",
+   "url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
+   "source": "The Guardian",
+   "date": "2026-11-09T02:39:04.000Z",
+   "sport": "Football",
+   "topic": "Media & rights"
+  },
+  {
+   "title": "WTGL Has ‘Surreal’ Debut as Newest Women’s Sports League",
+   "url": "https://frontofficesports.com/article/wtgl-debut-prize-money-tech/",
+   "source": "Front Office Sports",
+   "date": "2026-11-09T01:08:33.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "NWSL playoffs: Rodman’s brace leads Spirit rout while Gotham sneak into semi-finals",
+   "url": "https://www.theguardian.com/football/2026/nov/08/nwsl-playoffs-roundup-gotham-reign-spirit-thorns",
+   "source": "The Guardian",
+   "date": "2026-11-08T23:15:39.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Spurs score twice in two minutes to earn narrow win over Brighton",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c9gkvl078l18o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-08T20:02:07.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Palace leave it late to stun Charlton in comeback win",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cr74p2v8302po?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-08T20:02:04.000Z",
+   "sport": "Athletics",
+   "topic": "Competition"
+  },
+  {
+   "title": "Substitute Olme gives Man Utd deserved win over Aston Villa",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c699ze5074n2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-08T17:47:38.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Russo double gives Arsenal win over Liverpool at Anfield",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnq73n6lyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-08T17:45:27.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "WSL roundup: Crystal Palace deny Charlton first point, London City stay third",
+   "url": "https://www.theguardian.com/football/2026/nov/08/wsl-roundup-crystal-palace-deny-charlton-first-point-london-city-tottenham-brighton",
+   "source": "The Guardian",
+   "date": "2026-11-08T17:10:11.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "London City thump Birmingham to close gap on second",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c62kel300wwxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-08T17:06:21.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Liverpool 1-2 Arsenal: Women’s Super League – as it happened",
    "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
    "source": "The Guardian",
-   "date": "2026-11-08T11:45:31.000Z",
+   "date": "2026-11-08T14:35:16.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Russo on target again as double fires under-pressure Arsenal to vital WSL win at Liverpool",
+   "url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-08T14:13:00.000Z",
    "sport": "Football",
    "topic": "Competition"
   },
@@ -516,102 +628,6 @@
    "source": "CBS Sports",
    "date": "2026-11-05T13:56:03.000Z",
    "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "More than 60 flights in 11 months and away games in the Arctic Circle",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cwm23qg6qy78o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-05T12:38:34.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Meet Clara Serrajordi: Barcelona’s midfield hope filling the void left by Alexia Putellas | Moving the Goalposts",
-   "url": "https://www.theguardian.com/football/2026/nov/05/clara-serrajordi-barcelona-midfielder-alexia-putellas-moving-the-goalposts",
-   "source": "The Guardian",
-   "date": "2026-11-05T11:52:22.000Z",
-   "sport": "Football",
-   "topic": "Governance"
-  },
-  {
-   "title": "FA and WSL launch major study into ACL injuries in women's football",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c6e9le7l9m75o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-05T10:24:06.000Z",
-   "sport": "Football",
-   "topic": "Players"
-  },
-  {
-   "title": "Sports owners bet big on Republicans. What does their defeat mean for US sports?",
-   "url": "https://www.theguardian.com/sport/2026/nov/05/us-midterms-sports-owners-republicans-democrats-gambling-stadiums",
-   "source": "The Guardian",
-   "date": "2026-11-05T10:00:02.000Z",
-   "sport": "Athletics",
-   "topic": "Investment"
-  },
-  {
-   "title": "What's next for the Valkyries? Why Golden State could add star free agent to championship core",
-   "url": "https://www.cbssports.com/wnba/news/golden-state-valkyries-offseason-outlook-wnba-free-agents/",
-   "source": "CBS Sports",
-   "date": "2026-11-04T20:33:26.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Multiple States Pass Propositions Banning Transgender Athletes From Women’s Sports",
-   "url": "https://frontofficesports.com/article/multiple-states-pass-propositions-banning-transgender-athletes-womens-sports/",
-   "source": "Front Office Sports",
-   "date": "2026-11-04T19:40:07.000Z",
-   "sport": "Other",
-   "topic": "Governance"
-  },
-  {
-   "title": "Burrage receives support after online death threats",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/cw073lpllk43o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-04T18:41:34.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Renee Montgomery Cautions Friends Running for WNBA Commissioner",
-   "url": "https://frontofficesports.com/article/renee-montgomery-cautions-friends-running-for-wnba-commissioner/",
-   "source": "Front Office Sports",
-   "date": "2026-11-04T18:00:11.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Way-too-early 2027 WNBA Power Rankings: Valkyries on top; Fever, Lynx, Liberty have major offseason questions",
-   "url": "https://www.cbssports.com/wnba/news/way-too-early-wnba-power-rankings-2027-season/",
-   "source": "CBS Sports",
-   "date": "2026-11-04T16:57:20.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Biggest surprises from initial CFP Rankings; Ravens starting an undrafted rookie QB on 'TNF'",
-   "url": "https://www.cbssports.com/fantasy/football/news/biggest-surprises-from-initial-cfp-rankings-ravens-starting-an-undrafted-rookie-qb-on-tnf/",
-   "source": "CBS Sports",
-   "date": "2026-11-04T13:53:59.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
-   "url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
-   "source": "The Guardian",
-   "date": "2026-11-04T13:00:11.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Jodie Burrage offered support by WTA after death threats and online abuse",
-   "url": "https://www.theguardian.com/sport/2026/nov/04/jodie-burrage-tennis-offered-support-by-wta-after-death-threats-and-online-abuse",
-   "source": "The Guardian",
-   "date": "2026-11-04T12:55:19.000Z",
-   "sport": "Tennis",
    "topic": "Competition"
   }
  ]
