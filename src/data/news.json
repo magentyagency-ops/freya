@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:41:22.177Z",
+ "updated": "2026-11-10T13:19:01.249Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,6 +335,134 @@
  ],
  "wire": [
   {
+   "title": "Sisters in Sweat: how a former Spurs player got 20,000 Indian women into sport",
+   "url": "https://www.theguardian.com/football/2026/nov/10/sisters-in-sweat-indian-women-sport-moving-the-goalposts",
+   "source": "The Guardian",
+   "date": "2026-11-10T12:00:51.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Bunny Shaw shines again for five-star Manchester City – Women’s Football Weekly",
+   "url": "https://www.theguardian.com/football/audio/2026/nov/10/bunny-shaw-shines-again-for-five-star-manchester-city-womens-football-weekly",
+   "source": "The Guardian",
+   "date": "2026-11-10T11:24:58.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Manchester City’s Kerstin Casparij: ‘I love football – but it takes over your life’",
+   "url": "https://www.theguardian.com/football/2026/nov/10/manchester-citys-kerstin-casparij-i-love-football-but-it-takes-over-your-life",
+   "source": "The Guardian",
+   "date": "2026-11-10T08:00:32.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Alessia Russo",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c84g1104pzz2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:33:51.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Alexia Putellas",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c875ppxenq67o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:33:41.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Khadija 'Bunny' Shaw",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c8vgxx53weqxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:33:33.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "Ewa Pajor",
+   "url": "https://www.bbc.co.uk/sport/football/videos/ckm233yyd52mo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:33:21.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Temwa Chawinga",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cr93zzvv5xj3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:33:12.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "Listen: Who is your BBC Women's Footballer of the Year?",
+   "url": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:30:00.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T06:24:50.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Sabalenka wins WTA Finals opener despite wayward serve",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/cr20w0q8lgy1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T23:51:09.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "BBC Women's Football Weekly",
+   "url": "https://www.bbc.co.uk/sounds/play/p0pm60tc?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T21:46:00.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn",
+   "url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
+   "source": "The Guardian",
+   "date": "2026-11-09T20:51:37.000Z",
+   "sport": "Football",
+   "topic": "Media & rights"
+  },
+  {
+   "title": "Stadium Issues Pile Up for NWSL Semifinals",
+   "url": "https://frontofficesports.com/article/nwsl-stadium-schedule-gotham-washington/",
+   "source": "Front Office Sports",
+   "date": "2026-11-09T18:26:48.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Every goal from the Women's Super League - matchweek nine",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T15:25:55.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Bronze named in World 11 for record ninth time",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmkgeg2z4dlwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-09T14:55:32.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
    "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
    "url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
    "source": "The Guardian",
@@ -365,14 +493,6 @@
    "date": "2026-11-09T05:01:00.000Z",
    "sport": "Tennis",
    "topic": "Competition"
-  },
-  {
-   "title": "Washington Spirit avert scheduling crisis, keep NWSL semi-final at Audi Field; Gotham venue TBD",
-   "url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
-   "source": "The Guardian",
-   "date": "2026-11-09T02:39:04.000Z",
-   "sport": "Football",
-   "topic": "Media & rights"
   },
   {
    "title": "WTGL Has ‘Surreal’ Debut as Newest Women’s Sports League",
@@ -460,14 +580,6 @@
    "source": "The Guardian",
    "date": "2026-11-08T08:00:35.000Z",
    "sport": "Cricket",
-   "topic": "Competition"
-  },
-  {
-   "title": "Who am I? Guess WSL star No 11",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cgqdv8lexl1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T06:51:06.000Z",
-   "sport": "Football",
    "topic": "Competition"
   },
   {
@@ -572,62 +684,6 @@
    "source": "The Guardian",
    "date": "2026-11-06T15:32:26.000Z",
    "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "NWSL playoff predictions: who can spoil Gotham’s bid for the double?",
-   "url": "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks",
-   "source": "The Guardian",
-   "date": "2026-11-06T11:00:51.000Z",
-   "sport": "Football",
-   "topic": "Business"
-  },
-  {
-   "title": "Golden State Valkyries celebrate historic WNBA championship with Bay Area parade – in pictures",
-   "url": "https://www.theguardian.com/sport/gallery/2026/nov/05/golden-state-valkyries-wnba-championship-parade-san-francisco-oakland-pictures",
-   "source": "The Guardian",
-   "date": "2026-11-05T19:36:57.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "WTA apologizes after hot mic captures Pegula’s ‘diva’ remarks about Andreeva",
-   "url": "https://www.theguardian.com/sport/2026/nov/05/wta-finals-jessica-pegula-mirra-andreeva-hot-mic-diva-apology",
-   "source": "The Guardian",
-   "date": "2026-11-05T18:42:03.000Z",
-   "sport": "Tennis",
-   "topic": "Media & rights"
-  },
-  {
-   "title": "WTA Takes ‘Full Responsibility’ for Livestream of Pegula’s Hot-Mic Comments",
-   "url": "https://frontofficesports.com/article/wta-takes-full-responsibility-for-jessica-pegulas-hot-mic-comments/",
-   "source": "Front Office Sports",
-   "date": "2026-11-05T17:03:48.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "WTA takes 'full responsibility' after Pegula 'diva' comment live-streamed",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/cm1dwll642ngo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-05T16:29:20.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "2024 WNBA Re-Draft: Caitlin Clark still goes No. 1, but how high does Angel Reese climb?",
-   "url": "https://www.cbssports.com/wnba/news/2024-wnba-re-draft-caitlin-clark-angel-reese/",
-   "source": "CBS Sports",
-   "date": "2026-11-05T15:28:46.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Miami loses Malachi Toney to high ankle sprain; Week 9 NFL picks and latest NBA Power Rankings",
-   "url": "https://www.cbssports.com/college-football/news/miami-loses-malachi-toney-to-high-ankle-sprain-week-9-nfl-picks-and-latest-nba-power-rankings/",
-   "source": "CBS Sports",
-   "date": "2026-11-05T13:56:03.000Z",
-   "sport": "Other",
    "topic": "Competition"
   }
  ]
