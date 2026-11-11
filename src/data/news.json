@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:19:01.249Z",
+ "updated": "2026-11-11T12:30:53.113Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,6 +335,110 @@
  ],
  "wire": [
   {
+   "title": "Scotland without captain Weir for World Cup play-off",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-11T11:59:18.000Z",
+   "sport": "Other",
+   "topic": "Players"
+  },
+  {
+   "title": "Give Me the Ball! review – tennis trailblazer Billie Jean King is ferocious force for equality",
+   "url": "https://www.theguardian.com/film/2026/nov/11/give-me-the-ball-review-billie-jean-king-documentary",
+   "source": "The Guardian",
+   "date": "2026-11-11T11:00:47.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Justė Jocytė's WNBA future in doubt? Why Valkyries under pressure to resolve drama with prized Euro prospect",
+   "url": "https://www.cbssports.com/wnba/news/juste-jocyte-valkyries-drama-wnba-future/",
+   "source": "CBS Sports",
+   "date": "2026-11-11T02:24:49.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T23:59:03.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Noskova beats Gauff to reach WTA Finals semi-finals as Pegula stays alive",
+   "url": "https://www.theguardian.com/sport/2026/nov/10/jessica-pegula-marta-kostyuk-wta-finals-tennis",
+   "source": "The Guardian",
+   "date": "2026-11-10T23:31:32.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Inter 1-4 Manchester City: Women’s Champions League – as it happened",
+   "url": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
+   "source": "The Guardian",
+   "date": "2026-11-10T22:08:34.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
+   "url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-10T22:05:43.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Man City thrash Inter to claim first CL win of season",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T22:05:15.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Chelsea play out goalless draw with Hacken",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T20:07:12.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Partick Thistle lose SWPL points for amateur player payments",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cme3x33vz0p0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T19:23:42.000Z",
+   "sport": "Football",
+   "topic": "Business"
+  },
+  {
+   "title": "WTA Defends Playing Year-End Finals in Smaller Indian Wells Stadium",
+   "url": "https://frontofficesports.com/article/wta-finals-smaller-stadium/",
+   "source": "Front Office Sports",
+   "date": "2026-11-10T18:43:25.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "What is the Women's Champions League prize money?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cw8dzdzq2zn6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-10T16:29:16.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Hot mics, Andreeva ‘diva’ drama and a stopgap finale at Indian Wells bail out the WTA | Tumaini Carayol",
+   "url": "https://www.theguardian.com/sport/2026/nov/10/hot-mics-andreeva-diva-drama-and-a-stopgap-finale-at-indian-wells-bail-out-the-wta",
+   "source": "The Guardian",
+   "date": "2026-11-10T14:25:05.000Z",
+   "sport": "Tennis",
+   "topic": "Media & rights"
+  },
+  {
    "title": "Sisters in Sweat: how a former Spurs player got 20,000 Indian women into sport",
    "url": "https://www.theguardian.com/football/2026/nov/10/sisters-in-sweat-indian-women-sport-moving-the-goalposts",
    "source": "The Guardian",
@@ -495,7 +599,7 @@
    "topic": "Competition"
   },
   {
-   "title": "WTGL Has ‘Surreal’ Debut as Newest Women’s Sports League",
+   "title": "WTGL Has ‘Surreal’ Debut As Newest Women’s Sports League",
    "url": "https://frontofficesports.com/article/wtgl-debut-prize-money-tech/",
    "source": "Front Office Sports",
    "date": "2026-11-09T01:08:33.000Z",
@@ -615,74 +719,10 @@
    "topic": "Competition"
   },
   {
-   "title": "Title race hots up before Chelsea-Man City showdown",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-07T18:27:46.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
    "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
    "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
    "source": "The Guardian",
    "date": "2026-11-07T15:11:59.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "WTA chair apologises to Pegula for airing of 'diva' comment",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/ckpdgg87ye3po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-06T22:28:43.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Geno Auriemma on the Caitlin Clark Effect and the Rise of Sports Gambling",
-   "url": "https://frontofficesports.com/videos/geno-auriemma-on-the-caitlin-clark-effect-and-the-rise-of-sports-gambling/",
-   "source": "Front Office Sports",
-   "date": "2026-11-06T21:02:08.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Charlton’s struggles expose ‘absolute ocean’ between WSL and second tier",
-   "url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
-   "source": "The Guardian",
-   "date": "2026-11-06T20:49:00.000Z",
-   "sport": "Athletics",
-   "topic": "Competition"
-  },
-  {
-   "title": "‘We’re still cool’: Paige Bueckers and Azzi Fudd confirm split and reject WNBA draft speculation",
-   "url": "https://www.theguardian.com/sport/2026/nov/06/paige-bueckers-azzi-fudd-breakup-dallas-wings-wnba-draft",
-   "source": "The Guardian",
-   "date": "2026-11-06T19:59:13.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Wings teammates Paige Bueckers, Azzi Fudd announce breakup, reveal split happened 'over a year' ago",
-   "url": "https://www.cbssports.com/wnba/news/paige-bueckers-azzi-fudd-breakup-relationship-dallas-wings/",
-   "source": "CBS Sports",
-   "date": "2026-11-06T19:15:05.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "James out for minimum of five games - Bompastor",
-   "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-06T16:44:44.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "How Gotham FC re-tooled for another NWSL title run – this time as favorites",
-   "url": "https://www.theguardian.com/football/2026/nov/06/gotham-fc-nwsl-playoffs",
-   "source": "The Guardian",
-   "date": "2026-11-06T15:32:26.000Z",
    "sport": "Football",
    "topic": "Competition"
   }
