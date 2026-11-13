@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:35:37.086Z",
+ "updated": "2026-11-13T12:54:38.902Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,12 +335,76 @@
  ],
  "wire": [
   {
+   "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-13T01:23:06.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Gritty Arsenal show different side in Barcelona draw",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqe85vym242jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-12T21:50:59.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+   "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-12T20:09:07.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Barcelona 1-1 Arsenal: Women’s Champions League – as it happened",
+   "url": "https://www.theguardian.com/football/live/2026/nov/12/barcelona-v-arsenal-womens-champions-league-live",
+   "source": "The Guardian",
+   "date": "2026-11-12T20:07:27.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal dig deep to earn WCL draw in face of Barcelona dominance",
+   "url": "https://www.theguardian.com/football/2026/nov/12/barcelona-arsenal-womens-champions-league-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-12T20:00:16.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Softball Players Reach Deal With Athletes Unlimited to Form Union",
+   "url": "https://frontofficesports.com/article/ausl-players-union-softball/",
+   "source": "Front Office Sports",
+   "date": "2026-11-12T15:23:57.000Z",
+   "sport": "Football",
+   "topic": "Governance"
+  },
+  {
+   "title": "Andreeva beats world number two Sabalenka to reach WTA semis",
+   "url": "https://www.bbc.co.uk/sport/tennis/videos/cqrmg2w1038ro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-12T14:57:38.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
    "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
    "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
    "source": "The Guardian",
    "date": "2026-11-12T12:00:47.000Z",
    "sport": "Football",
    "topic": "Competition"
+  },
+  {
+   "title": "England's Breach agrees new Saracens deal",
+   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c69vw8zvz8jxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-12T10:35:15.000Z",
+   "sport": "Rugby",
+   "topic": "Players"
   },
   {
    "title": "How 'Barca way' continues despite big-name exits",
@@ -604,118 +668,6 @@
    "source": "BBC Sport",
    "date": "2026-11-09T14:55:32.000Z",
    "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
-   "url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
-   "source": "The Guardian",
-   "date": "2026-11-09T11:24:37.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Gauff opens WTA Finals with gritty win over Pegula",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-09T07:20:06.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Fishlock retires after record-breaking career",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-09T06:32:11.000Z",
-   "sport": "Football",
-   "topic": "Players"
-  },
-  {
-   "title": "‘I’m going to tell the truth. Screw this!’ Billie Jean King at 82 on coming out, tearing up tennis – and her one big regret",
-   "url": "https://www.theguardian.com/sport/2026/nov/09/billie-jean-king-82-coming-out-tennis",
-   "source": "The Guardian",
-   "date": "2026-11-09T05:01:00.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "WTGL Has ‘Surreal’ Debut As Newest Women’s Sports League",
-   "url": "https://frontofficesports.com/article/wtgl-debut-prize-money-tech/",
-   "source": "Front Office Sports",
-   "date": "2026-11-09T01:08:33.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "NWSL playoffs: Rodman’s brace leads Spirit rout while Gotham sneak into semi-finals",
-   "url": "https://www.theguardian.com/football/2026/nov/08/nwsl-playoffs-roundup-gotham-reign-spirit-thorns",
-   "source": "The Guardian",
-   "date": "2026-11-08T23:15:39.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Spurs score twice in two minutes to earn narrow win over Brighton",
-   "url": "https://www.bbc.co.uk/sport/football/videos/c9gkvl078l18o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T20:02:07.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Palace leave it late to stun Charlton in comeback win",
-   "url": "https://www.bbc.co.uk/sport/football/videos/cr74p2v8302po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T20:02:04.000Z",
-   "sport": "Athletics",
-   "topic": "Competition"
-  },
-  {
-   "title": "Substitute Olme gives Man Utd deserved win over Aston Villa",
-   "url": "https://www.bbc.co.uk/sport/football/videos/c699ze5074n2o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T17:47:38.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Russo double gives Arsenal win over Liverpool at Anfield",
-   "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnq73n6lyo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T17:45:27.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "WSL roundup: Crystal Palace deny Charlton first point, London City stay third",
-   "url": "https://www.theguardian.com/football/2026/nov/08/wsl-roundup-crystal-palace-deny-charlton-first-point-london-city-tottenham-brighton",
-   "source": "The Guardian",
-   "date": "2026-11-08T17:10:11.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "London City thump Birmingham to close gap on second",
-   "url": "https://www.bbc.co.uk/sport/football/videos/c62kel300wwxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-08T17:06:21.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Liverpool 1-2 Arsenal: Women’s Super League – as it happened",
-   "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
-   "source": "The Guardian",
-   "date": "2026-11-08T14:35:16.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Russo on target again as double fires under-pressure Arsenal to vital WSL win at Liverpool",
-   "url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
-   "source": "The Guardian",
-   "date": "2026-11-08T14:13:00.000Z",
-   "sport": "Football",
    "topic": "Competition"
   }
  ]
