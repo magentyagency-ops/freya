@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:34:06.843Z",
+ "updated": "2026-11-16T13:25:40.858Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,19 +335,307 @@
  ],
  "wire": [
   {
+   "title": "Carlos Alcaraz v Frances Tiafoe: ATP Finals tennis group stage – live",
+   "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
+   "source": "The Guardian",
+   "date": "2026-11-16T13:20:33.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Purce slams venue switch after Gotham exit: 'Bad look for everyone'",
+   "url": "https://www.espn.com/soccer/story/_/id/50497071/purce-slams-venue-switch-gotham-exit-inexcusable",
+   "source": "ESPN",
+   "date": "2026-11-16T13:00:29.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Current score late to beat Gotham, advance to face Spirit in NWSL finals",
+   "url": "https://www.espn.com/soccer/report/_/gameId/401933740",
+   "source": "ESPN",
+   "date": "2026-11-16T13:00:29.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Why the Champions League's iconic 'star' match ball could soon be replaced",
+   "url": "https://www.espn.com/soccer/story/_/id/49730333/uefa-champions-league-adidas-nike-ball",
+   "source": "espnW",
+   "date": "2026-11-16T12:56:02.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "McAteer 'intelligence' earns praise from Ipswich boss",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmrlg3dgyp50o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-16T12:47:39.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "WSL talking points: Chelsea’s gamble pays off and have Arsenal lost fear factor?",
+   "url": "https://www.theguardian.com/football/2026/nov/16/wsl-talking-points-chelseas-gamble-pays-off-and-have-arsenal-lost-fear-factor",
+   "source": "The Guardian",
+   "date": "2026-11-16T12:30:57.000Z",
+   "sport": "Football",
+   "topic": "Business"
+  },
+  {
+   "title": "Lye, Peterborough and the never-ending Women's FA Cup tie",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmp3vz1kgpvqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-16T12:11:48.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Teenage sensation Andreeva wins WTA Finals",
+   "url": "https://www.bbc.co.uk/sport/tennis/videos/cry49pl51l3go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-16T10:22:05.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Spirit coach Gonzalez praises Luvanga's defensive effort",
+   "url": "https://www.espn.com/espn/story/_/id/50499762/washington-spirit-adrian-gonzalez-clara-luvanga-nwsl",
+   "source": "espnW",
+   "date": "2026-11-16T09:22:26.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Fans on big stadiums v small grounds for WSL matches",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cw4gnxm46e5mo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-16T09:01:01.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Every goal from the Women's Super League - matchweek 10",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm1j6r3gj4r0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-16T08:30:12.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Iowa State's Fennelly suspended for 'inappropriate' in-game contact with player",
+   "url": "https://www.espn.com/womens-college-basketball/story/_/id/50498905/iowa-state-coach-bill-fennelly-suspended-contact-player",
+   "source": "espnW",
+   "date": "2026-11-16T06:31:45.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "UCLA raises first women's hoops banner; Close tells football team 'you're next'",
+   "url": "https://www.espn.com/womens-college-basketball/story/_/id/50498547/ucla-raises-banner-first-ever-women-basketball-title",
+   "source": "espnW",
+   "date": "2026-11-16T06:23:34.000Z",
+   "sport": "Basketball",
+   "topic": "Governance"
+  },
+  {
+   "title": "One burning question for every NWSL team eliminated from the playoffs",
+   "url": "https://www.espn.com/soccer/story/_/id/50361539/every-nwsl-team-eliminated-playoffs-2026-one-offseason-question-answer",
+   "source": "espnW",
+   "date": "2026-11-16T05:33:18.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "2027 WNBA Mock Draft: JuJu Watkins, Hannah Hidalgo go 1-2 to Tempo and Comets",
+   "url": "https://www.cbssports.com/wnba/news/2027-wnba-mock-draft-juju-watkins-hannah-hidalgo-tempo-comets/",
+   "source": "CBS Sports",
+   "date": "2026-11-16T04:53:48.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Toronto Tempo win 2027 WNBA draft lottery, land No. 1 pick",
+   "url": "https://www.espn.com/wnba/story/_/id/50497107/toronto-tempo-win-2027-wnba-draft-lottery",
+   "source": "ESPN",
+   "date": "2026-11-16T04:38:23.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "WNBA mock draft: Toronto wins lottery, projected to pick JuJu Watkins at No. 1",
+   "url": "https://www.espn.com/wnba/story/_/id/50491141/wnba-mock-draft-2027-draft-lottery-toronto-projections",
+   "source": "espnW",
+   "date": "2026-11-16T04:16:34.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Kansas City Current are in the NWSL Championship, just a year later than expected",
+   "url": "https://www.espn.com/soccer/story/_/id/50496583/kansas-city-current-nwsl-championship-just-year-later-expected",
+   "source": "ESPN",
+   "date": "2026-11-16T03:24:02.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "U.S. ice dancers Zingas and Kolesnik top Skate America podium",
+   "url": "https://www.espn.com/olympics/figureskating/story/_/id/50497631/us-ice-dancers-zingas-kolesnik-win-skate-america-gold",
+   "source": "espnW",
+   "date": "2026-11-16T03:07:53.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "2027 WNBA Draft order: Toronto Tempo win lottery, chance to pick JuJu Watkins at No. 1",
+   "url": "https://www.cbssports.com/wnba/news/2027-wnba-draft-order-toronto-tempo-win-lottery-chance-to-pick-juju-watkins-at-no-1/",
+   "source": "CBS Sports",
+   "date": "2026-11-16T02:42:36.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Toronto Wins First WNBA Lottery, Houston Lands No. 2 Pick",
+   "url": "https://frontofficesports.com/article/wnba-draft-lottery-toronto-houston/",
+   "source": "Front Office Sports",
+   "date": "2026-11-16T01:33:25.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
+   "title": "Toronto Tempo win WNBA draft lottery and No 1 pick with JuJu Watkins in play",
+   "url": "https://www.theguardian.com/sport/2026/nov/15/toronto-tempo-wnba-draft-lottery-juju-watkins",
+   "source": "The Guardian",
+   "date": "2026-11-16T01:15:10.000Z",
+   "sport": "Basketball",
+   "topic": "Investment"
+  },
+  {
+   "title": "Gotham NWSL Title Defense Ends at Relocated NYC Semi",
+   "url": "https://frontofficesports.com/article/gotham-nwsl-nyc-stadium-change/",
+   "source": "Front Office Sports",
+   "date": "2026-11-16T01:11:01.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Champs Gotham exit playoffs with no shots on goal: 'It's not good enough'",
+   "url": "https://www.espn.com/soccer/story/_/id/50495686/gotham-exit-playoffs-no-shots-goal",
+   "source": "espnW",
+   "date": "2026-11-16T01:09:50.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Teenager Andreeva caps stunning week with WTA Finals title",
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T23:18:38.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "Mirra Andreeva holds nerve against Svitolina to win WTA Finals for first time",
+   "url": "https://www.theguardian.com/sport/2026/nov/15/mirra-andreeva-elina-svitolina-wta-finals-tennis",
+   "source": "The Guardian",
+   "date": "2026-11-15T22:39:10.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "WTA Finals final: Mirra Andreeva beats Elina Svitolina in straight sets – as it happened",
+   "url": "https://www.theguardian.com/sport/live/2026/nov/15/wta-finals-final-elina-svitolina-v-mirra-andreeva-live",
+   "source": "The Guardian",
+   "date": "2026-11-15T22:28:55.000Z",
+   "sport": "Tennis",
+   "topic": "Competition"
+  },
+  {
+   "title": "London City earn point in thrilling draw against Arsenal",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rd2e400jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T22:06:41.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Washington Spirit on verge of realizing Michele Kang's dream of NWSL dominance",
+   "url": "https://www.espn.com/soccer/story/_/id/50483273/washington-spirit-kang-dream-nwsl-dominance",
+   "source": "ESPN",
+   "date": "2026-11-15T21:26:17.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "London City's 'bravery' paying off in top three pursuit",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T20:03:08.000Z",
+   "sport": "Football",
+   "topic": "Business"
+  },
+  {
+   "title": "Aston Villa beat Birmingham in WSL derby",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T19:47:37.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Struggling Charlton make WSL history after defeat at West Ham",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c6kg7rpkr3jlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T19:43:57.000Z",
+   "sport": "Athletics",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal 1-1 London City Lionesses: Women’s Super League – as it happened",
+   "url": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
+   "source": "The Guardian",
+   "date": "2026-11-15T18:59:27.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
+   "url": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-15T18:53:08.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "AS FAR retain Women's African Champions League title",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-15T17:23:45.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Potential candidates, offseason priorities for New York Liberty after Chris DeMarco exit",
+   "url": "https://www.espn.com/wnba/story/_/id/50369085/new-york-liberty-new-coach-candidates-priorities",
+   "source": "ESPN",
+   "date": "2026-11-15T16:46:08.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Chelsea reassert WSL dominance over Man City in front of USWNT boss Hayes",
+   "url": "https://www.espn.com/soccer/story/_/id/50479087/sonia-bompastor-chelsea-man-city-wsl-emma-hayes",
+   "source": "ESPN",
+   "date": "2026-11-15T08:50:21.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
    "title": "Sabalenka apologises & says viral comment 'not directed at Svitolina'",
    "url": "https://www.bbc.co.uk/sport/tennis/articles/ck62p9ge4d76o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
    "date": "2026-11-15T07:51:33.000Z",
    "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "How Aston Villa are reclaiming their identity",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cm4gkgnkkn9zo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-15T07:12:05.000Z",
-   "sport": "Other",
    "topic": "Competition"
   },
   {
@@ -463,6 +751,14 @@
    "topic": "Competition"
   },
   {
+   "title": "Sources: 2027 WNBA season expected to open May 7, end no later than Oct. 24",
+   "url": "https://www.espn.com/wnba/story/_/id/50466261/sources-2027-wnba-season-start-7",
+   "source": "ESPN",
+   "date": "2026-11-13T20:41:05.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
    "title": "WTA Chair Believes She Has Road Map Out of Financial Hole",
    "url": "https://frontofficesports.com/article/wta-chair-believes-she-has-roadmap-out-of-financial-hole/",
    "source": "Front Office Sports",
@@ -487,6 +783,14 @@
    "topic": "Investment"
   },
   {
+   "title": "Where to watch 2027 WNBA draft lottery",
+   "url": "https://www.espn.com/wnba/story/_/id/50471389/watch-2027-wnba-draft-lottery",
+   "source": "ESPN",
+   "date": "2026-11-13T14:38:18.000Z",
+   "sport": "Basketball",
+   "topic": "Competition"
+  },
+  {
    "title": "Why Chelsea and Manchester City’s WSL clash is not as season-defining as you think",
    "url": "https://www.theguardian.com/football/2026/nov/13/why-chelsea-and-manchester-citys-wsl-clash-is-not-as-season-defining-as-you-think",
    "source": "The Guardian",
@@ -503,100 +807,12 @@
    "topic": "Business"
   },
   {
-   "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-13T01:23:06.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Gritty Arsenal show different side in Barcelona draw",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cqe85vym242jo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-12T21:50:59.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
-   "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-12T20:09:07.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Barcelona 1-1 Arsenal: Women’s Champions League – as it happened",
-   "url": "https://www.theguardian.com/football/live/2026/nov/12/barcelona-v-arsenal-womens-champions-league-live",
-   "source": "The Guardian",
-   "date": "2026-11-12T20:07:27.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Arsenal dig deep to earn WCL draw in face of Barcelona dominance",
-   "url": "https://www.theguardian.com/football/2026/nov/12/barcelona-arsenal-womens-champions-league-match-report",
-   "source": "The Guardian",
-   "date": "2026-11-12T20:00:16.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Softball Players Reach Deal With Athletes Unlimited to Form Union",
-   "url": "https://frontofficesports.com/article/ausl-players-union-softball/",
-   "source": "Front Office Sports",
-   "date": "2026-11-12T15:23:57.000Z",
-   "sport": "Football",
-   "topic": "Governance"
-  },
-  {
-   "title": "Andreeva beats world number two Sabalenka to reach WTA semis",
-   "url": "https://www.bbc.co.uk/sport/tennis/videos/cqrmg2w1038ro?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-12T14:57:38.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
-   "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
-   "source": "The Guardian",
-   "date": "2026-11-12T12:00:47.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "How 'Barca way' continues despite big-name exits",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-12T06:41:09.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
-   "url": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-12T00:48:23.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
-   "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
-   "source": "The Guardian",
-   "date": "2026-11-12T00:23:53.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
-   "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
-   "source": "The Guardian",
-   "date": "2026-11-11T16:03:44.000Z",
-   "sport": "Football",
-   "topic": "Governance"
+   "title": "WNBA mock draft: Sunday's lottery to determine which team will win JuJu sweepstakes",
+   "url": "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections",
+   "source": "ESPN",
+   "date": "2026-11-13T13:03:31.000Z",
+   "sport": "Basketball",
+   "topic": "Investment"
   }
  ]
 }
