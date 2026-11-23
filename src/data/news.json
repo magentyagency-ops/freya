@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:08:27.361Z",
+ "updated": "2026-11-23T15:45:44.843Z",
  "articles": [
   {
    "slug": "2026-10-01-angel-reese-wins-wnba-defensive-player-of-the-year-award",
@@ -335,42 +335,186 @@
  ],
  "wire": [
   {
-   "title": "Manchester City v Tottenham, Birmingham v Manchester United: WSL clockwatch – live",
+   "title": "IFA 'positive' over upgrades needed for World Cup",
+   "url": "https://www.bbc.co.uk/sport/football/articles/crgqx3472depo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T15:26:23.000Z",
+   "sport": "Football",
+   "topic": "Investment"
+  },
+  {
+   "title": "FIFA Officially Picks U.S.-Led Bid For 2031 Women’s World Cup",
+   "url": "https://frontofficesports.com/article/fifa-womens-world-cup-united-states/",
+   "source": "Front Office Sports",
+   "date": "2026-11-23T15:21:44.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Inside Fifa and US Soccer’s plan for 2031 World Cup: ‘the largest women’s sporting event in history’",
+   "url": "https://www.theguardian.com/football/2026/nov/23/2031-womens-world-cup-projection-fifa-ussf",
+   "source": "The Guardian",
+   "date": "2026-11-23T15:16:29.000Z",
+   "sport": "Football",
+   "topic": "Business"
+  },
+  {
+   "title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T15:09:50.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "‘Celebrate, inspire, unite’: UK confirmed as host of 2035 Women’s World Cup",
+   "url": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa",
+   "source": "The Guardian",
+   "date": "2026-11-23T15:09:18.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "49ers, Giants, Cowboys earn top grades in NFL Week 11; fallout from Tarik Skubal's historic Mets deal",
+   "url": "https://www.cbssports.com/nfl/news/49ers-giants-cowboys-earn-top-grades-in-nfl-week-11-fallout-from-tarik-skubals-historic-mets-deal/",
+   "source": "CBS Sports",
+   "date": "2026-11-23T13:57:57.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Andreatta's masterplan to shock Sweden & take Scots to World Cup",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c94gn2mmjr4eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T11:49:40.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Mustaki out of World Cup play-off with knee injury",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cw33g15zeemro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T11:35:50.000Z",
+   "sport": "Other",
+   "topic": "Players"
+  },
+  {
+   "title": "WSL talking points: Captain Spence inspires Spurs shock win at City and Lionesses impress",
+   "url": "https://www.theguardian.com/football/2026/nov/23/wsl-talking-points-tottenham-london-city-lionesses-chelsea-arsenal",
+   "source": "The Guardian",
+   "date": "2026-11-23T11:19:05.000Z",
+   "sport": "Football",
+   "topic": "Players"
+  },
+  {
+   "title": "Every goal from the Women's Super League - matchweek 11",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cq8j4glgw4pvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T09:34:52.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Three years on NI Women finally have friendlies again",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm9q8vgqerlxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T08:06:02.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "'Our Super Bowl moment' - what can WSL learn from booming US league?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c893rk66e1l7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-23T07:52:55.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Alcaraz Earns Record $5.2 Million Prize Money for Winning ATP Finals",
+   "url": "https://www.sportico.com/leagues/tennis/2026/carlos-alcaraz-atp-finals-prize-money-1234959140/",
+   "source": "Sportico",
+   "date": "2026-11-22T20:48:18.000Z",
+   "sport": "Tennis",
+   "topic": "Business"
+  },
+  {
+   "title": "Charlton earn maiden WSL point against Villa",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cwq6e7gl5r4yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T19:50:45.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Own-goal mishap gifts Brighton first away victory",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cqx2w0m8v84wo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T19:50:33.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Kildunne returns to haunt Harlequins as Bristol get PWR season off to a flyer",
+   "url": "https://www.theguardian.com/sport/2026/nov/22/harlequins-bristol-premiership-womens-rugby-union-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-22T18:42:34.000Z",
+   "sport": "Rugby",
+   "topic": "Players"
+  },
+  {
+   "title": "Spurs deny Man City top spot with statement win",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T17:54:36.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Man Utd score dramatic late winner to extend record run",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T17:54:32.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Holders Celtic win 17-0 in Scottish Cup - Rangers, Hearts, City also through",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c8zx91z9xe9yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T17:53:41.000Z",
+   "sport": "Other",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal frustrations grow as winless home run continues",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T17:30:45.000Z",
+   "sport": "Football",
+   "topic": "Competition"
+  },
+  {
+   "title": "Arsenal 0-0 West Ham, Manchester City 1-3 Tottenham: WSL clockwatch – as it happened",
    "url": "https://www.theguardian.com/football/live/2026/nov/22/wsl-manchester-city-tottenham-birmingham-manchester-united-arsenal-west-ham-live",
    "source": "The Guardian",
-   "date": "2026-11-22T13:04:43.000Z",
+   "date": "2026-11-22T16:57:45.000Z",
    "sport": "Football",
    "topic": "Competition"
   },
   {
-   "title": "Kansas City finally, and deservedly, breaks NWSL Championship drought",
-   "url": "https://www.espn.com/soccer/story/_/id/50558351/kansas-city-current-breaks-nwsl-championship-drought",
-   "source": "ESPN",
-   "date": "2026-11-22T12:36:53.000Z",
+   "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "date": "2026-11-22T16:25:35.000Z",
    "sport": "Football",
    "topic": "Competition"
   },
   {
-   "title": "DiBernardo's Olimpico goal leads Kansas City to 1st NWSL Championship",
-   "url": "https://www.espn.com/soccer/story/_/id/50557858/nwsl-championship-kansas-city-current-washington-spirit",
-   "source": "ESPN",
-   "date": "2026-11-22T12:36:46.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Rodman on 3rd straight NWSL Championship loss: 'This one hurts way worse'",
-   "url": "https://www.espn.com/soccer/story/_/id/50559416/trinity-rodman-nwsl-championship-washington-spirit",
-   "source": "ESPN",
-   "date": "2026-11-22T12:36:46.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Women's Champions League on Disney+: Schedule, format, more",
-   "url": "https://www.espn.com/soccer/story/_/id/46479547/womens-champions-league-disney+-schedule-format-more",
-   "source": "espnW",
-   "date": "2026-11-22T08:03:50.000Z",
+   "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
+   "url": "https://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
+   "source": "The Guardian",
+   "date": "2026-11-22T14:59:23.000Z",
    "sport": "Football",
    "topic": "Competition"
   },
@@ -381,46 +525,6 @@
    "date": "2026-11-22T07:19:58.000Z",
    "sport": "Football",
    "topic": "Competition"
-  },
-  {
-   "title": "Why Arsenal are behind in race for Champions League spots",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-22T07:17:10.000Z",
-   "sport": "Tennis",
-   "topic": "Competition"
-  },
-  {
-   "title": "NCAA to scrap pregame handshakes at women's tourney after Geno-Staley spat",
-   "url": "https://www.espn.com/womens-college-basketball/story/_/id/50557772/ncaa-mandate-pregame-handshakes-women-tournament",
-   "source": "espnW",
-   "date": "2026-11-22T06:22:39.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Who has won the NWSL Golden Boot award?",
-   "url": "https://www.espn.com/soccer/story/_/id/42131884/national-womens-soccer-league-golden-boot-winners-list",
-   "source": "espnW",
-   "date": "2026-11-22T05:42:53.000Z",
-   "sport": "Football",
-   "topic": "Players"
-  },
-  {
-   "title": "NWSL all-time winners: Championship, Shield, Challenge Cup",
-   "url": "https://www.espn.com/soccer/story/_/id/42080926/nwsl-all-winners-championship-shield-challenge-cup",
-   "source": "espnW",
-   "date": "2026-11-22T05:22:12.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Wales boss Wilkinson rules out Fishlock return",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ckzd9n5j9mj9o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-22T05:12:04.000Z",
-   "sport": "Other",
-   "topic": "Governance"
   },
   {
    "title": "Kansas City Current stun Washington Spirit to win NWSL Championship – as it happened",
@@ -439,43 +543,11 @@
    "topic": "Competition"
   },
   {
-   "title": "DiBernardo joins Rapinoe, Pulisic in pantheon of great Olimpicos",
-   "url": "https://www.espn.com/soccer/story/_/id/46407078/celebrating-olimpico-one-soccers-most-audacious-goals",
-   "source": "espnW",
-   "date": "2026-11-22T03:53:18.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
    "title": "Kansas City Current Win NWSL Title After Years of Big Spending",
    "url": "https://frontofficesports.com/article/kansas-city-current-win-nwsl-title-after-years-of-big-spending/",
    "source": "Front Office Sports",
    "date": "2026-11-22T03:27:20.000Z",
    "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Iowa St. begins 'enhanced monitoring' of women's hoops team after abuse claims",
-   "url": "https://www.espn.com/womens-college-basketball/story/_/id/50556995/iowa-state-addresses-ex-players-allegations-bill-fennelly",
-   "source": "espnW",
-   "date": "2026-11-22T01:52:50.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
-   "title": "Women's Feast Week guide: Harpring leads Tar Heels to another résumé-building win",
-   "url": "https://www.espn.com/womens-college-basketball/story/_/id/50513465/2026-womens-feast-week-thanksgiving-tournament-schedule",
-   "source": "espnW",
-   "date": "2026-11-22T01:06:11.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Women's divisional rankings: Zamorano climbs at atomweight with dominant win",
-   "url": "https://www.espn.com/boxing/story/_/id/32533891/boxing-rankings-espn-top-5-women-every-boxing-division",
-   "source": "espnW",
-   "date": "2026-11-22T00:45:30.000Z",
-   "sport": "Other",
    "topic": "Competition"
   },
   {
@@ -487,35 +559,11 @@
    "topic": "Competition"
   },
   {
-   "title": "Kim clings to 1-shot lead in LPGA finale; Korda back in mix",
-   "url": "https://www.espn.com/golf/story/_/id/50554344/kim-clings-1-shot-lead-lpga-finale-korda-back-mix",
-   "source": "espnW",
-   "date": "2026-11-21T22:06:22.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
    "title": "WSL roundup: Chelsea thwarted by Liverpool keeper, London City move to third",
    "url": "https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl",
    "source": "The Guardian",
    "date": "2026-11-21T20:54:39.000Z",
    "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Japan's Shimada wins Finlandia GP; American Levito finishes 3rd",
-   "url": "https://www.espn.com/olympics/figureskating/story/_/id/50551165/japan-mao-shimada-wins-2nd-grand-prix-debut-season",
-   "source": "espnW",
-   "date": "2026-11-21T19:56:07.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "New Mexico men, Alabama women capture NCAA cross country titles",
-   "url": "https://www.espn.com/college-sports/story/_/id/50551762/new-mexico-men-alabama-women-capture-cross-country-titles",
-   "source": "espnW",
-   "date": "2026-11-21T18:56:04.000Z",
-   "sport": "Other",
    "topic": "Competition"
   },
   {
@@ -565,14 +613,6 @@
    "date": "2026-11-21T11:00:00.000Z",
    "sport": "Football",
    "topic": "Competition"
-  },
-  {
-   "title": "Brady buys Chelsea shares: List of athletes who became team owners",
-   "url": "https://www.espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners",
-   "source": "ESPN",
-   "date": "2026-11-20T20:47:35.000Z",
-   "sport": "Other",
-   "topic": "Investment"
   },
   {
    "title": "NWSL, PWHL Holding Off on Prediction-Market Deals",
@@ -671,148 +711,12 @@
    "topic": "Business"
   },
   {
-   "title": "WNBA’s LA Sparks Near Record $705 Million Sale to Feliciano, Jones",
-   "url": "https://www.sportico.com/business/team-sales/2026/wnba-los-angeles-sparks-sale-feliciano-jones-1234958926/",
-   "source": "Sportico",
-   "date": "2026-11-19T18:10:51.000Z",
-   "sport": "Basketball",
-   "topic": "Competition"
-  },
-  {
    "title": "Fifa sparks tension with demand for tax-free status in UK for Women’s World Cup",
    "url": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
    "source": "The Guardian",
    "date": "2026-11-19T16:00:06.000Z",
    "sport": "Football",
    "topic": "Governance"
-  },
-  {
-   "title": "GTA VI is here: How different was the sports world when GTA V dropped?",
-   "url": "https://www.espn.com/nba/story/_/id/50526626/gta-sports-pop-culture-look-back",
-   "source": "ESPN",
-   "date": "2026-11-19T15:21:54.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Vanessa Bryant, widow of Kobe, denies teaming up with Pau Gasol to bid on WNBA's Sparks",
-   "url": "https://www.cbssports.com/wnba/news/vanessa-bryant-pau-gasol-los-angeles-sparks-bid-wnba/",
-   "source": "CBS Sports",
-   "date": "2026-11-19T14:17:55.000Z",
-   "sport": "Basketball",
-   "topic": "Investment"
-  },
-  {
-   "title": "NFL experts make Week 11 picks; LaMelo Ball driving Timberwolves' success; No. 1, No. 3 teams in Top 25 lose",
-   "url": "https://www.cbssports.com/nfl/news/nfl-experts-make-week-11-picks-lamelo-ball-driving-timberwolves-success-no-1-no-3-teams-in-top-25-lose/",
-   "source": "CBS Sports",
-   "date": "2026-11-19T13:58:12.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Five return for Wales' World Cup play-off final",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-19T13:40:43.000Z",
-   "sport": "Other",
-   "topic": "Players"
-  },
-  {
-   "title": "Washington Spirit v Kansas City Current: where the NWSL Championship will be won and lost",
-   "url": "https://www.theguardian.com/football/2026/nov/19/nwsl-championship-washington-spirit-kc-current-moving-the-goalposts",
-   "source": "The Guardian",
-   "date": "2026-11-19T11:40:20.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Magill returns to NI squad for Greece friendlies",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cqly43n1vjm8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-19T11:12:20.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Could England fears lead to fewer overseas players in PWR?",
-   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cxnv43verrddo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-19T08:58:34.000Z",
-   "sport": "Rugby",
-   "topic": "Competition"
-  },
-  {
-   "title": "World marathon champion Peres Jepchirchir banned for three years over doping",
-   "url": "https://www.theguardian.com/sport/2026/nov/19/peres-jepchirchir-world-marathon-champion-banned-three-years-doping",
-   "source": "The Guardian",
-   "date": "2026-11-19T08:36:26.000Z",
-   "sport": "Athletics",
-   "topic": "Governance"
-  },
-  {
-   "title": "‘Closing the door halts growth’: Liv Apps on PWR’s international appeal – and pruning the Red Roses",
-   "url": "https://www.theguardian.com/sport/2026/nov/19/liv-apps-premiership-women-rugby-international-talent-pool",
-   "source": "The Guardian",
-   "date": "2026-11-19T08:00:21.000Z",
-   "sport": "Rugby",
-   "topic": "Competition"
-  },
-  {
-   "title": "Chelsea 1-0 Paris Saint-Germain: Women’s Champions League – as it happened",
-   "url": "https://www.theguardian.com/football/live/2026/nov/18/chelsea-v-paris-saint-germain-psg-womens-champions-league-live-score-updates",
-   "source": "The Guardian",
-   "date": "2026-11-18T22:14:15.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Buurman rescues late Chelsea win against PSG",
-   "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-18T22:13:49.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Veerle Buurman scrambles late WCL winner to push blunt Chelsea past PSG",
-   "url": "https://www.theguardian.com/football/2026/nov/18/chelsea-paris-saint-germain-womens-champions-league-match-report",
-   "source": "The Guardian",
-   "date": "2026-11-18T22:06:45.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "England defender Carter joins Bay FC after Gotham exit",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-18T21:07:26.000Z",
-   "sport": "Other",
-   "topic": "Competition"
-  },
-  {
-   "title": "Hemp and Shaw star as Manchester City get vital win at Hacken",
-   "url": "https://www.bbc.co.uk/sport/football/videos/c32l50p1yk8vo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-18T20:25:40.000Z",
-   "sport": "Football",
-   "topic": "Competition"
-  },
-  {
-   "title": "Ward close to new deal as Noonan returns to squad",
-   "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "date": "2026-11-18T18:06:04.000Z",
-   "sport": "Other",
-   "topic": "Players"
-  },
-  {
-   "title": "LPGA Working With PGA Tour, Networks for Better TV Windows",
-   "url": "https://frontofficesports.com/article/lpga-working-with-pga-tour-networks-for-better-tv-windows/",
-   "source": "Front Office Sports",
-   "date": "2026-11-18T17:14:52.000Z",
-   "sport": "Tennis",
-   "topic": "Media & rights"
   }
  ]
 }
